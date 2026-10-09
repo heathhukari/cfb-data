@@ -88,8 +88,31 @@ def main():
     if not KEY:
         print("CFBD_API_KEY secret is missing", file=sys.stderr)
         sys.exit(1)
-    req = json.load(open(os.path.join(ROOT, "collect", "run.json")))
+    if os.environ.get("CFBD_JOB") == "weekly":
+        # scheduled run (Sunday): current season, last completed week (detected below)
+        req = {"job": "weekly", "year": "auto", "week": "auto", "maxCalls": 15, "trigger": "schedule"}
+    else:
+        req = json.load(open(os.path.join(ROOT, "collect", "run.json")))
     job = req.get("job", "probe")
+    pre = []  # calls already made (auto week detection)
+    if job == "weekly" and "auto" in (str(req.get("year")), str(req.get("week"))):
+        # last completed week = the newest regular-season week in which 90%+ of FBS games are final
+        now = datetime.now(timezone.utc)
+        y = now.year if now.month >= 6 else now.year - 1
+        st, body = get("/games", {"year": y, "seasonType": "regular", "classification": "fbs"})
+        bump_calls(1)
+        if st != 200:
+            print("games lookup failed", st, file=sys.stderr); sys.exit(1)
+        G = json.loads(body); wk = {}
+        for g in G:
+            wk.setdefault(g["week"], []).append(bool(g.get("completed")))
+        done = [w for w, c in wk.items() if sum(c) >= 0.9 * len(c)]
+        if not done:
+            print("no completed regular-season week yet", file=sys.stderr); sys.exit(0)
+        req["year"], req["week"] = y, max(done)
+        pre.append({"year": y, "name": "games", "path": "/games", "params": {"seasonType": "regular", "classification": "fbs"}, "status": st,
+                    "bytes": len(body), "file": save(y, "games", body), **describe(body)})
+        print("auto:", req["year"], "week", req["week"])
     plan = []  # (year, name, path, params)
     if job == "probe":
         y = int(req.get("year", 2026)); plan = [(y, n, p, q) for n, p, q in PROBE]
@@ -108,7 +131,7 @@ def main():
     elif job == "weekly":
         # current-season refresh: season-level player data + last completed week's per-game data
         y, w = int(req["year"]), int(req["week"])
-        plan = [(y, n, p, q) for n, p, q in PROBE if n in ("games", "player_season_stats", "player_ppa_season", "player_usage", "team_advanced_season", "lines", "game_havoc")]
+        plan = [(y, n, p, q) for n, p, q in PROBE if n in (() if pre else ("games",)) + ("player_season_stats", "player_ppa_season", "player_usage", "team_advanced_season", "lines", "game_havoc")]
         plan += [(y, f"game_advanced_w{w:02d}", "/stats/game/advanced", {"week": w, "seasonType": "regular"}),
                  (y, f"game_player_stats_w{w:02d}", "/games/players", {"week": w, "seasonType": "regular"}),
                  (y, f"qb_ppa_games_w{w:02d}", "/ppa/players/games", {"week": w, "position": "QB", "seasonType": "regular"})]
@@ -121,7 +144,7 @@ def main():
     if month_calls().get(m, 0) + len(plan) > 900:
         print("monthly call guard: would exceed 900 of 1000", file=sys.stderr)
         sys.exit(1)
-    out, used = [], 0
+    out, used = list(pre), 0
     year = plan[0][0] if plan else None
     for y, name, path, params in plan:
         st, body = get(path, {"year": y, **params})
@@ -137,7 +160,7 @@ def main():
         print(f"{name}: {st} {len(body)} bytes rows={rec.get('rows')}")
         time.sleep(0.5)
     total = bump_calls(used)
-    man = {"job": job, "request": req, "ranAt": datetime.now(timezone.utc).isoformat(), "callsUsed": used, "callsThisMonth": total, "results": out}
+    man = {"job": job, "request": req, "ranAt": datetime.now(timezone.utc).isoformat(), "callsUsed": used + len(pre), "callsThisMonth": total, "results": out}
     os.makedirs(os.path.join(ROOT, "data", "manifests"), exist_ok=True)
     json.dump(man, open(os.path.join(ROOT, "data", "manifests", f"{job}-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M')}.json"), "w"), indent=1)
     if out and out[0]["status"] == 401 and "Patreon" not in out[0].get("error", ""):

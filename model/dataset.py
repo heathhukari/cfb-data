@@ -18,7 +18,8 @@ def load(year, name):
 
 def weekly(year, prefix):
     out = []
-    for p in sorted(glob.glob(os.path.join(ROOT, "data", str(year), "raw", prefix + "_w*.json.gz"))):
+    # only two-digit week files (_w05); the probe's single-digit copies (_w5) would double-count a week
+    for p in sorted(glob.glob(os.path.join(ROOT, "data", str(year), "raw", prefix + "_w[0-9][0-9].json.gz"))):
         out += json.loads(gzip.open(p).read())
     return out
 

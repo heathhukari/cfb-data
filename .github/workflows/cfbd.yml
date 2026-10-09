@@ -3,7 +3,14 @@ on:
   push:
     branches: [main]
     paths: ["collect/run.json", "collect/cfbd.py", ".github/workflows/cfbd.yml"]
-  workflow_dispatch: {}
+  schedule:
+    - cron: "23 14 * * 0"   # Sundays 14:23 UTC (9:23 AM Central): last completed week, ~10 calls
+  workflow_dispatch:
+    inputs:
+      weekly:
+        description: "Run the weekly job (auto year/week) instead of collect/run.json"
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -21,6 +28,7 @@ jobs:
       - name: Collect from CFBD
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          CFBD_JOB: ${{ (github.event_name == 'schedule' || inputs.weekly) && 'weekly' || '' }}
         run: python collect/cfbd.py
       - name: Commit data
         if: always()
@@ -28,5 +36,10 @@ jobs:
           git config user.name "cfbd-collector"
           git config user.email "actions@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "CFBD data: $(python -c 'import json;r=json.load(open("collect/run.json"));print(r["job"], r["year"])')"
+          git diff --cached --quiet && exit 0
+          if [ -n "$CFBD_JOB" ]; then MSG="CFBD data: weekly (scheduled)"; else MSG="CFBD data: $(python -c 'import json;r=json.load(open("collect/run.json"));print(r["job"], r.get("year", r.get("years")))')"; fi
+          git commit -m "$MSG"
+          git pull --rebase -q || true
           git push
+        env:
+          CFBD_JOB: ${{ (github.event_name == 'schedule' || inputs.weekly) && 'weekly' || '' }}

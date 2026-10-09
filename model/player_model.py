@@ -176,7 +176,7 @@ def main(year, week, inj_path=None):
     games = []
     for g in claude.get("games", []):
         if g["home"] not in focus and g["away"] not in focus: continue
-        if g["home"] not in PMd or g["away"] not in PMd: continue
+        if g["home"] not in PMd or g["away"] not in PMd or g.get("claudeHomeMargin") is None: continue
         hfa = 0 if g["neutral"] else 2.5
         pmm = PMd[g["home"]] - PMd[g["away"]] + hfa
         th, ta = d2c[g["home"]], d2c[g["away"]]
