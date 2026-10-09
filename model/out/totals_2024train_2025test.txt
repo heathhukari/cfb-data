@@ -1,0 +1,11 @@
+totals: train 612, test 617; closing O/U MAE test 12.20; overs hit 0.485 (2025)
+  run_vs_f7      coef     +0.04  corr train +0.010  test -0.031  test MAE 12.352
+  run_vs_stuff   coef     +0.06  corr train +0.010  test +0.015  test MAE 12.352
+  ol_vs_rush     coef     -0.30  corr train -0.011  test -0.053  test MAE 12.352
+  pass_vs_db     coef     -0.60  corr train -0.043  test -0.021  test MAE 12.352
+  f7_sum         coef     -2.57  corr train -0.067  test +0.031  test MAE 12.351
+  epa_sum        coef     -0.32  corr train -0.142  test -0.042  test MAE 12.480
+  rush_rate_sum  coef     +2.59  corr train +0.029  test +0.015  test MAE 12.351
+  all matchup features: test MAE 12.352 vs 12.203
+  model says under by 2+: n=0, unders hit nan
+  model says under by 3+: n=0, unders hit nan

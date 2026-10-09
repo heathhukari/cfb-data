@@ -115,6 +115,18 @@ def points_ratings(games_before, teams):
     return {t: beta[idx[t]] for t in teams}, beta[n]
 
 
+def closing_total(lines_by_game, gid):
+    ls = lines_by_game.get(gid) or []
+    for pref in ("consensus", "DraftKings", "ESPN Bet", "Bovada"):
+        for l in ls:
+            if l.get("provider") == pref and l.get("overUnder") is not None:
+                return float(l["overUnder"])
+    for l in ls:
+        if l.get("overUnder") is not None:
+            return float(l["overUnder"])
+    return np.nan
+
+
 def closing_spread(lines_by_game, gid):
     ls = lines_by_game.get(gid) or []
     for pref in ("consensus", "DraftKings", "ESPN Bet", "Bovada", "William Hill (New Jersey)"):
@@ -135,6 +147,8 @@ def build(year):
     G["margin"] = G.hp - G.ap
     lines = {l["id"]: l["lines"] for l in (load(year, "lines") or [])}
     G["spread"] = [closing_spread(lines, gid) for gid in G.gameId]
+    G["ou"] = [closing_total(lines, gid) for gid in G.gameId]
+    G["total"] = G.hp + G.ap
     TG = team_games(year)
     teams = sorted(fbs)
     out = []
@@ -150,7 +164,7 @@ def build(year):
         qb_hist = tgb.dropna(subset=["qb_pass_epa"]).sort_values("week")
         for _, g in G[(G.week == W) & G.home.isin(fbs) & G.away.isin(fbs)].iterrows():
             r = {"year": year, "week": W, "gameId": g.gameId, "home": g.home, "away": g.away, "neutral": g.neutral, "margin": g.margin,
-                 "spread": g.spread, "mkt": -g.spread if g.spread == g.spread else np.nan}
+                 "spread": g.spread, "mkt": -g.spread if g.spread == g.spread else np.nan, "ou": g.ou, "total": g.total}
             if pr:
                 rat, hfa = pr; r["rat"] = rat.get(g.home, 0) - rat.get(g.away, 0) + (0 if g.neutral else hfa)
             for m, f in fits.items():

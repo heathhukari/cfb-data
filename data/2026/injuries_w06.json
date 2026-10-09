@@ -1,0 +1,1379 @@
+{
+"source": "Covers.com NCAAF injury report, read Oct 9, 2026 (Out and Doubtful only)",
+"teams": {
+"Air Force": [
+{
+"n": "L. Szarka",
+"pos": "QB",
+"st": "Out - Leg"
+}
+],
+"Akron": [
+{
+"n": "C. Monteiro",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Broughton",
+"pos": "QB",
+"st": "Out - Knee"
+}
+],
+"Arizona": [
+{
+"n": "T. Spivey",
+"pos": "WR",
+"st": "Out - Ankle"
+},
+{
+"n": "C. Rusk",
+"pos": "TE",
+"st": "Out - Leg"
+},
+{
+"n": "D. Austin",
+"pos": "S",
+"st": "Out - Undisclosed"
+}
+],
+"Arizona State": [
+{
+"n": "L. Rawls",
+"pos": "CB",
+"st": "Out - Leg"
+},
+{
+"n": "K. Anderson",
+"pos": "TE",
+"st": "Out - Leg"
+},
+{
+"n": "W. Helton",
+"pos": "OG",
+"st": "Out - Leg"
+},
+{
+"n": "H. Hassmann",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Arkansas": [
+{
+"n": "M. Lassiter",
+"pos": "TE",
+"st": "Out - Upper Body"
+}
+],
+"Arkansas State": [
+{
+"n": "D. Spencer",
+"pos": "RB",
+"st": "Out - Knee"
+}
+],
+"Army": [
+{
+"n": "B. Mott",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Auburn": [
+{
+"n": "E. Smith",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "N. Davenport",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Ball State": [
+{
+"n": "I. Thacker",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. Talbert",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Baylor": [
+{
+"n": "C. Redding",
+"pos": "S",
+"st": "Out - Knee"
+},
+{
+"n": "T. Williams Jr.",
+"pos": "WR",
+"st": "Out - Collarbone"
+}
+],
+"Boston College": [
+{
+"n": "B. Clough",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "B. MacCormack III",
+"pos": "RB",
+"st": "Out - Shoulder"
+}
+],
+"Bowling Green": [
+{
+"n": "K. Baldwin",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "A. Clay",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Buffalo": [
+{
+"n": "E. Holmes",
+"pos": "QB",
+"st": "Out - Knee"
+},
+{
+"n": "T. Shelton Jr.",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "B. Sholder",
+"pos": "K",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Watkins",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Gathings",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. McNeil Jr.",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "A. Jones III",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"BYU": [
+{
+"n": "L. Martin",
+"pos": "RB",
+"st": "Out - Ankle"
+},
+{
+"n": "A. Gentry",
+"pos": "OG",
+"st": "Out - Undisclosed"
+},
+{
+"n": "S. Esera",
+"pos": "LB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "S. Moa",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "R. Damuni",
+"pos": "S",
+"st": "Out - Lower Body"
+}
+],
+"California": [
+{
+"n": "C. Vargas",
+"pos": "RB",
+"st": "Out - Leg"
+}
+],
+"Central Michigan": [
+{
+"n": "J. Allen",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Charlotte": [
+{
+"n": "C. Harrell",
+"pos": "QB",
+"st": "Out - Undisclosed"
+}
+],
+"Clemson": [
+{
+"n": "J. Haynes",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. Eziomume",
+"pos": "RB",
+"st": "Out - Leg"
+},
+{
+"n": "C. Gipson",
+"pos": "CB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. McGriff",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Turner",
+"pos": "WR",
+"st": "Out - Personal"
+},
+{
+"n": "P. Streko",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Colorado": [
+{
+"n": "M. Vickers",
+"pos": "CB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "Z. Atkins",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. Scudero",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Colorado State": [
+{
+"n": "G. Houser",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. Foster",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Delaware": [
+{
+"n": "N. Minicucci",
+"pos": "QB",
+"st": "Out - Leg"
+},
+{
+"n": "G. Spiller",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Duke": [
+{
+"n": "Q. Johnson",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "L. Gardner",
+"pos": "QB",
+"st": "Out - Undisclosed"
+}
+],
+"East Carolina": [
+{
+"n": "J. Melvin",
+"pos": "WR",
+"st": "Out - Back"
+}
+],
+"Eastern Michigan": [
+{
+"n": "N. Devereaux",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Florida": [
+{
+"n": "D. Groce",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. Jimenez",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Florida State": [
+{
+"n": "D. Carter",
+"pos": "WR",
+"st": "Out - Back"
+},
+{
+"n": "S. Singleton Jr.",
+"pos": "RB",
+"st": "Out - Lower Body"
+}
+],
+"Fresno State": [
+{
+"n": "B. Ramirez",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Georgia": [
+{
+"n": "D. Dowdell",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Georgia Southern": [
+{
+"n": "A. Hollins",
+"pos": "WR",
+"st": "Out - Shoulder"
+}
+],
+"Georgia Tech": [
+{
+"n": "S. Jones",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "A. Hoffler",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "E. Mackenny",
+"pos": "OG",
+"st": "Out - Undisclosed"
+},
+{
+"n": "S. Riley",
+"pos": "S",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Walker",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Jean-Noel",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Hawaii": [
+{
+"n": "P. Ashlock",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "R. Haynes IV",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Houston": [
+{
+"n": "J. Hebert",
+"pos": "RB",
+"st": "Out - Leg"
+},
+{
+"n": "E. Noel",
+"pos": "K",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Strozier Jr.",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Tounkara",
+"pos": "WR",
+"st": "Out - Foot"
+},
+{
+"n": "L. McGary",
+"pos": "TE",
+"st": "Out - Shoulder"
+}
+],
+"Illinois": [
+{
+"n": "G. Smith",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "B. Thurman",
+"pos": "TE",
+"st": "Out - Foot"
+},
+{
+"n": "A. Perry",
+"pos": "WR",
+"st": "Out - Shoulder"
+},
+{
+"n": "T. Hollinger",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Indiana": [
+{
+"n": "L. Bond",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Iowa State": [
+{
+"n": "C. Pabst",
+"pos": "WR",
+"st": "Out - Knee"
+},
+{
+"n": "C. Crawford",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Singletary",
+"pos": "CB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Bailey",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Jacksonville State": [
+{
+"n": "A. Paul",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Kansas": [
+{
+"n": "C. Moses",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Ballard",
+"pos": "QB",
+"st": "Out - Shoulder"
+},
+{
+"n": "K. Amachree",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "Y. Willis",
+"pos": "RB",
+"st": "Out - Foot"
+},
+{
+"n": "J. Mason",
+"pos": "QB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Thurman",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Kansas State": [
+{
+"n": "W. Anciaux",
+"pos": "TE",
+"st": "Out - Leg"
+},
+{
+"n": "J. Pastore",
+"pos": "OG",
+"st": "Out - Leg"
+}
+],
+"Kentucky": [
+{
+"n": "T. Mizell",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Liberty": [
+{
+"n": "J. Marshall",
+"pos": "RB",
+"st": "Out - Leg"
+}
+],
+"Louisiana": [
+{
+"n": "J. Norris",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. Smith",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Birdlow",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Louisiana Tech": [
+{
+"n": "D. Benedix",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "B. Baker",
+"pos": "QB",
+"st": "Out - Hand"
+}
+],
+"UL Monroe": [
+{
+"n": "J. Wright",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Louisville": [
+{
+"n": "H. Atkins",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Quisenberry",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "A. Watts",
+"pos": "CB",
+"st": "Out - Knee"
+},
+{
+"n": "P. Cook",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. Hughes",
+"pos": "WR",
+"st": "Out - Lower Body"
+}
+],
+"LSU": [
+{
+"n": "P. Wright III",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. Spears",
+"pos": "S",
+"st": "Out - Knee"
+}
+],
+"Maryland": [
+{
+"n": "L. Johnson",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "Z. Mathis",
+"pos": "LB",
+"st": "Out - Leg"
+}
+],
+"Miami (FL)": [
+{
+"n": "O. Ruskavich",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Moore",
+"pos": "WR",
+"st": "Out - Upper Body"
+},
+{
+"n": "C. Brown",
+"pos": "RB",
+"st": "Out - Lower Body"
+},
+{
+"n": "L. Gilbert",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Miami (OH)": [
+{
+"n": "C. Ross",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. McComb",
+"pos": "QB",
+"st": "Out - Upper Body"
+},
+{
+"n": "C. Castner",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "E. Karner",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. Reynolds",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. Gotkowski",
+"pos": "QB",
+"st": "Out - Undisclosed"
+}
+],
+"Michigan": [
+{
+"n": "A. Sprague",
+"pos": "OG",
+"st": "Out - Undisclosed"
+}
+],
+"Michigan State": [
+{
+"n": "C. Wheatland",
+"pos": "LB",
+"st": "Out - Undisclosed"
+}
+],
+"Minnesota": [
+{
+"n": "R. Estrada",
+"pos": "RB",
+"st": "Out - Knee"
+}
+],
+"Ole Miss": [
+{
+"n": "K. Lacy",
+"pos": "RB",
+"st": "Out - Shoulder"
+}
+],
+"Missouri": [
+{
+"n": "L. Kitchen",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. Smith",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "G. Hoffman",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Brady",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Green",
+"pos": "OG",
+"st": "Out - Undisclosed"
+},
+{
+"n": "A. Hardy",
+"pos": "RB",
+"st": "Out - Leg"
+}
+],
+"Missouri State": [
+{
+"n": "J. Rexroat",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Joyner",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Mississippi State": [
+{
+"n": "A. Williams",
+"pos": "WR",
+"st": "Out - Leg"
+},
+{
+"n": "T. Williams",
+"pos": "DL",
+"st": "Out - Leg"
+},
+{
+"n": "B. Mitchell",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"NC State": [
+{
+"n": "I. Flynt",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"North Dakota State": [
+{
+"n": "D. Scott",
+"pos": "RB",
+"st": "Out - Foot"
+},
+{
+"n": "B. Walton",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. Schlichting",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Nebraska": [
+{
+"n": "L. Miles",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"New Mexico": [
+{
+"n": "T. Omeire",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "S. Miller",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. Walsh",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Mingo",
+"pos": "WR",
+"st": "Out - Foot"
+},
+{
+"n": "A. Williams",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Layne",
+"pos": "QB",
+"st": "Out - Elbow"
+},
+{
+"n": "J. Olsen",
+"pos": "TE",
+"st": "Out - Knee"
+}
+],
+"North Carolina": [
+{
+"n": "J. Washington",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. Chapman",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Warren",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Warren",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Northwestern": [
+{
+"n": "L. Dehnicke",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Fussell",
+"pos": "CB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. McDuffie",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. McGlinchey",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "B. Turner",
+"pos": "CB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Farrell",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "C. Petrucci",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Notre Dame": [
+{
+"n": "K. Viliamu-Asa",
+"pos": "LB",
+"st": "Out - Thumb"
+},
+{
+"n": "Q. Porter",
+"pos": "WR",
+"st": "Out - Knee"
+}
+],
+"Ohio": [
+{
+"n": "H. Grand",
+"pos": "QB",
+"st": "Out - Undisclosed"
+}
+],
+"Ohio State": [
+{
+"n": "T. Rogers",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Oklahoma": [
+{
+"n": "T. Harris",
+"pos": "WR",
+"st": "Out - Back"
+}
+],
+"Oklahoma State": [
+{
+"n": "O. Hammond",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Oregon": [
+{
+"n": "D. Moore",
+"pos": "QB",
+"st": "Out - Concussion"
+},
+{
+"n": "J. McClellan",
+"pos": "WR",
+"st": "Out - Foot"
+}
+],
+"Oregon State": [
+{
+"n": "K. Glass",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Penn State": [
+{
+"n": "C. Rosa",
+"pos": "K",
+"st": "Out - Undisclosed"
+},
+{
+"n": "K. Howard",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Granville",
+"pos": "DL",
+"st": "Out - Undisclosed"
+}
+],
+"Pittsburgh": [
+{
+"n": "M. Knight",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Purdue": [
+{
+"n": "K. Fox",
+"pos": "TE",
+"st": "Out - Knee"
+}
+],
+"Rutgers": [
+{
+"n": "D. Lonergan",
+"pos": "QB",
+"st": "Out - Head"
+},
+{
+"n": "K. Levy",
+"pos": "CB",
+"st": "Out - Undisclosed"
+}
+],
+"Sam Houston": [
+{
+"n": "B. Kuhl",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"San Diego State": [
+{
+"n": "A. Doe",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "P. Guiltinan",
+"pos": "TE",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Ellis",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"SMU": [
+{
+"n": "I. Singleton IV",
+"pos": "DL",
+"st": "Out - Undisclosed"
+},
+{
+"n": "L. Rhodes",
+"pos": "RB",
+"st": "Out - Knee"
+}
+],
+"South Alabama": [
+{
+"n": "K. Marion",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "D. White",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "B. Barnes",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Lynch",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"South Carolina": [
+{
+"n": "D. Stewart",
+"pos": "DL",
+"st": "Out - Back"
+},
+{
+"n": "J. Sellers",
+"pos": "WR",
+"st": "Out - Lower Body"
+},
+{
+"n": "J. Gibson",
+"pos": "WR",
+"st": "Out - Lower Body"
+}
+],
+"South Florida": [
+{
+"n": "J. Alexis",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "A. Branch",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Southern Miss": [
+{
+"n": "E. Hampton",
+"pos": "QB",
+"st": "Out - Hand"
+},
+{
+"n": "J. Himes",
+"pos": "WR",
+"st": "Out - Foot"
+},
+{
+"n": "G. Page",
+"pos": "WR",
+"st": "Out - Elbow"
+}
+],
+"Stanford": [
+{
+"n": "J. Galvan",
+"pos": "LB",
+"st": "Out - Undisclosed"
+}
+],
+"TCU": [
+{
+"n": "M. Short",
+"pos": "LB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Pitchford",
+"pos": "RB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Dwyer",
+"pos": "WR",
+"st": "Out - Foot"
+}
+],
+"Tennessee": [
+{
+"n": "Q. Moss",
+"pos": "CB",
+"st": "Out - Undisclosed"
+},
+{
+"n": "W. Moe Jr.",
+"pos": "OG",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Harmon",
+"pos": "LB",
+"st": "Out - Knee"
+}
+],
+"Texas A&M": [
+{
+"n": "B. Ivy",
+"pos": "OG",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. Bussey",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Williams",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. Riden Jr.",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Texas State": [
+{
+"n": "C. Snodgrass",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Texas Tech": [
+{
+"n": "C. Dickey",
+"pos": "RB",
+"st": "Out - Ankle"
+}
+],
+"Troy": [
+{
+"n": "J. Worley",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"Tulane": [
+{
+"n": "J. McClure",
+"pos": "RB",
+"st": "Out - Foot"
+}
+],
+"UCF": [
+{
+"n": "L. Carter",
+"pos": "LB",
+"st": "Out - Undisclosed"
+}
+],
+"UCLA": [
+{
+"n": "M. Matthews",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"UConn": [
+{
+"n": "J. Brown",
+"pos": "WR",
+"st": "Out - Concussion"
+}
+],
+"Massachusetts": [
+{
+"n": "J. Washington",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"USC": [
+{
+"n": "C. Simms",
+"pos": "WR",
+"st": "Out - Knee"
+},
+{
+"n": "T. Mosley",
+"pos": "WR",
+"st": "Doubtful - Knee"
+},
+{
+"n": "K. O'Connor",
+"pos": "OG",
+"st": "Out - Undisclosed"
+}
+],
+"Utah State": [
+{
+"n": "R. Haynes",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "N. Boncore",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Nelson",
+"pos": "TE",
+"st": "Out - Undisclosed"
+}
+],
+"UTEP": [
+{
+"n": "C. Simon",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "M. Ferguson",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Vanderbilt": [
+{
+"n": "K. Smith",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Virginia": [
+{
+"n": "T. Ward",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "J. Hammond",
+"pos": "DL",
+"st": "Out - Undisclosed"
+}
+],
+"Wake Forest": [
+{
+"n": "N. Carr",
+"pos": "WR",
+"st": "Out - Undisclosed"
+}
+],
+"Washington": [
+{
+"n": "C. Christian",
+"pos": "S",
+"st": "Out - Achilles"
+},
+{
+"n": "J. Limar",
+"pos": "RB",
+"st": "Out - Upper Body"
+},
+{
+"n": "Q. Carr",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Washington State": [
+{
+"n": "T. Freeman",
+"pos": "WR",
+"st": "Out - Leg"
+},
+{
+"n": "H. Cedarland",
+"pos": "TE",
+"st": "Out - Leg"
+}
+],
+"Western Kentucky": [
+{
+"n": "S. Baines",
+"pos": "RB",
+"st": "Out - Undisclosed"
+}
+],
+"Western Michigan": [
+{
+"n": "P. Domschke",
+"pos": "K",
+"st": "Out - Undisclosed"
+}
+],
+"Wyoming": [
+{
+"n": "D. DeBlanc",
+"pos": "WR",
+"st": "Out - Toe"
+},
+{
+"n": "K. Washom",
+"pos": "WR",
+"st": "Out - Undisclosed"
+},
+{
+"n": "T. Nystrom",
+"pos": "WR",
+"st": "Out - Knee"
+},
+{
+"n": "T. Hasselbeck",
+"pos": "QB",
+"st": "Out - Knee"
+}
+]
+}
+}
