@@ -1,1378 +1,3756 @@
 {
-"source": "Covers.com NCAAF injury report, read Oct 9, 2026 (Out and Doubtful only)",
+"source": "Covers.com, Oct 9 12:55 AM ET (+ verified overrides)",
 "teams": {
 "Air Force": [
 {
 "n": "L. Szarka",
 "pos": "QB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Mon, Oct 5"
 }
 ],
 "Akron": [
 {
+"n": "C. Gee",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "L. Sivon",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Riggins",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "P. Davis",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "C. Monteiro",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "C. Broughton",
 "pos": "QB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Sat, Oct 3"
+}
+],
+"Alabama": [
+{
+"n": "J. Ford",
+"pos": "TE",
+"st": "Questionable - Arm",
+"since": "Wed, Oct 7"
+},
+{
+"n": "A. Walker",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Arizona": [
 {
+"n": "G. Richardson",
+"pos": "WR",
+"st": "Questionable - Hamstring",
+"since": "Sun, Oct 4"
+},
+{
 "n": "T. Spivey",
 "pos": "WR",
-"st": "Out - Ankle"
+"st": "Out - Ankle",
+"since": "Sun, Oct 4"
+},
+{
+"n": "S. King",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "C. Rusk",
 "pos": "TE",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Thu, Oct 1"
+},
+{
+"n": "S. Brennan",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "C. Warren III",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 },
 {
 "n": "D. Austin",
 "pos": "S",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Sep 25"
 }
 ],
 "Arizona State": [
 {
 "n": "L. Rawls",
 "pos": "CB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Wed, Oct 7"
+},
+{
+"n": "G. Rigdon",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "K. Anderson",
 "pos": "TE",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Mon, Sep 21"
 },
 {
 "n": "W. Helton",
 "pos": "OG",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Fri, Sep 18"
 },
 {
 "n": "H. Hassmann",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
+},
+{
+"n": "Z. Fiaseu",
+"pos": "LB",
+"st": "IR - Knee",
+"since": "Tue, Aug 25"
 }
 ],
 "Arkansas": [
 {
+"n": "H. Hendrix",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
 "n": "M. Lassiter",
 "pos": "TE",
-"st": "Out - Upper Body"
+"st": "Out - Upper Body",
+"since": "Sun, Aug 16"
 }
 ],
 "Arkansas State": [
 {
+"n": "K. Clay",
+"pos": "RB",
+"st": "Questionable - Ankle",
+"since": "Thu, Oct 8"
+},
+{
 "n": "D. Spencer",
 "pos": "RB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Mon, Aug 17"
 }
 ],
 "Army": [
 {
 "n": "B. Mott",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "B. Luter",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "N. Dolbin",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Sep 25"
 }
 ],
 "Auburn": [
 {
+"n": "H. Herring",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
 "n": "E. Smith",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "N. Davenport",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "Ball State": [
 {
+"n": "C. Coonrod",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Breveard",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Thompson Jr.",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Bonds",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "I. Thacker",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "D. Talbert",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 }
 ],
 "Baylor": [
 {
+"n": "A. Jones",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
 "n": "C. Redding",
 "pos": "S",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Sat, Sep 5"
 },
 {
 "n": "T. Williams Jr.",
 "pos": "WR",
-"st": "Out - Collarbone"
+"st": "Out - Collarbone",
+"since": "Fri, Aug 21"
+}
+],
+"Boise State": [
+{
+"n": "C. Bates",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "S. Gaines",
+"pos": "RB",
+"st": "Questionable - Upper Body",
+"since": "Sun, Sep 27"
 }
 ],
 "Boston College": [
 {
 "n": "B. Clough",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "R. Swanson",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "B. MacCormack III",
 "pos": "RB",
-"st": "Out - Shoulder"
+"st": "Out - Shoulder",
+"since": "Sat, Sep 19"
 }
 ],
 "Bowling Green": [
 {
+"n": "I. Dawson",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "K. Baldwin",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "A. Clay",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 }
 ],
 "Buffalo": [
 {
 "n": "E. Holmes",
 "pos": "QB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Tue, Oct 6"
+},
+{
+"n": "N. Leonard",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Mays",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Richards",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "T. Shelton Jr.",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "B. Sholder",
 "pos": "K",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 },
 {
 "n": "J. Watkins",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 },
 {
 "n": "J. Gathings",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 },
 {
 "n": "J. McNeil Jr.",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 },
 {
 "n": "A. Jones III",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 19"
 }
 ],
 "BYU": [
 {
 "n": "L. Martin",
 "pos": "RB",
-"st": "Out - Ankle"
+"st": "Out - Ankle",
+"since": "Wed, Oct 7"
 },
 {
 "n": "A. Gentry",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "S. Esera",
 "pos": "LB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "B. Laga",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "R. Saleapaga II",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "S. Moa",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "J. Nye",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "R. Damuni",
 "pos": "S",
-"st": "Out - Lower Body"
+"st": "Out - Lower Body",
+"since": "Mon, Sep 7"
 }
 ],
 "California": [
 {
+"n": "J. Sagapolutele",
+"pos": "QB",
+"st": "Questionable - Head",
+"since": "Tue, Oct 6"
+},
+{
 "n": "C. Vargas",
 "pos": "RB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Sat, Sep 26"
+},
+{
+"n": "R. Walker",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "C. Boscia",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "T. Rogers",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
 }
 ],
 "Central Michigan": [
 {
+"n": "R. VanWetzinga IV",
+"pos": "FB",
+"st": "Questionable - Knee",
+"since": "Sat, Oct 3"
+},
+{
+"n": "V. Blue",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "J. Allen",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Sep 15"
 }
 ],
 "Charlotte": [
 {
+"n": "J. Hoffman",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Oct 4"
+},
+{
 "n": "C. Harrell",
 "pos": "QB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
+}
+],
+"Cincinnati": [
+{
+"n": "G. Kontosis",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "D. Witherspoon",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 }
 ],
 "Clemson": [
 {
 "n": "J. Haynes",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "C. Vizzina",
+"pos": "QB",
+"st": "Questionable - Elbow",
+"since": "Wed, Sep 30"
 },
 {
 "n": "D. Eziomume",
 "pos": "RB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Mon, Sep 28"
 },
 {
 "n": "C. Gipson",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Sep 25"
 },
 {
 "n": "K. McGriff",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
 },
 {
 "n": "C. Turner",
 "pos": "WR",
-"st": "Out - Personal"
+"st": "Out - Personal",
+"since": "Fri, Aug 21"
 },
 {
 "n": "P. Streko",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Aug 11"
+}
+],
+"Coastal Carolina": [
+{
+"n": "C. Hinton",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Oct 4"
+},
+{
+"n": "K. Johnson",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "Colorado": [
 {
 "n": "M. Vickers",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "Z. Atkins",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "D. Moore Jr.",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "Q. Gibson",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "C. Williams",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "D. Scudero",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "D. Henderson II",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "Colorado State": [
 {
+"n": "H. Hejny",
+"pos": "QB",
+"st": "Questionable - Hamstring",
+"since": "Wed, Oct 7"
+},
+{
 "n": "G. Houser",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "T. Foster",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 }
 ],
 "Delaware": [
 {
 "n": "N. Minicucci",
 "pos": "QB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Fri, Oct 2"
+},
+{
+"n": "T. Salazer",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "B. Rehmann",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 },
 {
 "n": "G. Spiller",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 13"
 }
 ],
 "Duke": [
 {
 "n": "Q. Johnson",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
 },
 {
 "n": "L. Gardner",
 "pos": "QB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Sep 16"
 }
 ],
 "East Carolina": [
 {
 "n": "J. Melvin",
 "pos": "WR",
-"st": "Out - Back"
+"st": "Out - Back",
+"since": "Sat, Sep 26"
+},
+{
+"n": "A. Gray",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Sep 21"
+},
+{
+"n": "L. Sides",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "M. McGowan",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "B. Spalding",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "Eastern Michigan": [
 {
+"n": "S. Fishwick",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "N. Jones-Davis",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "N. Lyman",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Minner",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Holt",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Miller",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "N. Kinsey",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "A. Turner",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "P. Kokaly",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Shelton",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "N. Devereaux",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Sep 21"
+}
+],
+"Florida International": [
+{
+"n": "K. Schaeffer",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "A. Passley",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "N. Sidan",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
 }
 ],
 "Florida": [
 {
+"n": "V. Brown III",
+"pos": "WR",
+"st": "Questionable - Knee",
+"since": "Mon, Oct 5"
+},
+{
+"n": "B. Stockton",
+"pos": "WR",
+"st": "Probable - Back",
+"since": "Fri, Oct 2"
+},
+{
+"n": "E. Singleton Jr.",
+"pos": "WR",
+"st": "Probable - Ankle",
+"since": "Mon, Sep 28"
+},
+{
 "n": "D. Groce",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Sep 7"
 },
 {
 "n": "K. Jimenez",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 5"
 }
 ],
 "Florida State": [
 {
+"n": "T. Gelsey",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "G. Markey",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "D. Carter",
 "pos": "WR",
-"st": "Out - Back"
+"st": "Out - Back",
+"since": "Thu, Oct 1"
 },
 {
 "n": "S. Singleton Jr.",
 "pos": "RB",
-"st": "Out - Lower Body"
+"st": "Out - Lower Body",
+"since": "Mon, Sep 21"
 }
 ],
 "Fresno State": [
 {
+"n": "R. Luke",
+"pos": "RB",
+"st": "Questionable - Concussion",
+"since": "Mon, Oct 5"
+},
+{
 "n": "B. Ramirez",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Aug 11"
 }
 ],
 "Georgia": [
 {
+"n": "T. Blackshear",
+"pos": "WR",
+"st": "Questionable - Upper Body",
+"since": "Mon, Oct 5"
+},
+{
+"n": "I. Canion",
+"pos": "WR",
+"st": "Questionable - Leg",
+"since": "Sat, Oct 3"
+},
+{
 "n": "D. Dowdell",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 5"
 }
 ],
 "Georgia Southern": [
 {
+"n": "T. Bradshaw",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "T. Gibbs",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "J. Ware",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
 "n": "A. Hollins",
 "pos": "WR",
-"st": "Out - Shoulder"
+"st": "Out - Shoulder",
+"since": "Thu, Oct 1"
+},
+{
+"n": "J. Dallas",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Sep 30"
 }
 ],
 "Georgia Tech": [
 {
 "n": "S. Jones",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "A. Hoffler",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "E. Mackenny",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "S. Riley",
 "pos": "S",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "J. Walker",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "C. Jean-Noel",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
+},
+{
+"n": "M. Hosley",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Sep 24"
+},
+{
+"n": "K. Roche Jr.",
+"pos": "TE",
+"st": "Probable - Undisclosed",
+"since": "Thu, Sep 24"
+},
+{
+"n": "D. Collins",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 12"
 }
 ],
 "Hawaii": [
 {
+"n": "C. Brown",
+"pos": "WR",
+"st": "Questionable - Shoulder",
+"since": "Mon, Oct 5"
+},
+{
+"n": "T. Griffiths",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "A. Hickman",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "I. Jaramilla-Phe",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "O. Salave'a",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "D. Heimuli",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
 "n": "P. Ashlock",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Oct 5"
 },
 {
 "n": "R. Haynes IV",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 3"
 }
 ],
 "Houston": [
 {
 "n": "J. Hebert",
 "pos": "RB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Mon, Oct 5"
 },
 {
 "n": "E. Noel",
 "pos": "K",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Strozier Jr.",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Sep 16"
+},
+{
+"n": "J. Ridgle",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Sep 16"
 },
 {
 "n": "M. Tounkara",
 "pos": "WR",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Tue, Aug 11"
 },
 {
 "n": "L. McGary",
 "pos": "TE",
-"st": "Out - Shoulder"
+"st": "Out - Shoulder",
+"since": "Tue, Aug 11"
 }
 ],
 "Illinois": [
 {
+"n": "J. Eberhart",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Forster",
+"pos": "RB",
+"st": "Questionable - Knee",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Harvey",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "W. Vala III",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "N. Rankin",
+"pos": "WR",
+"st": "Questionable - Leg",
+"since": "Sat, Oct 3"
+},
+{
+"n": "K. Alston",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Platt",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "M. Clement",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "K. Feagin",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "G. Smith",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Aug 23"
 },
 {
 "n": "B. Thurman",
 "pos": "TE",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Thu, Aug 13"
 },
 {
 "n": "A. Perry",
 "pos": "WR",
-"st": "Out - Shoulder"
+"st": "Out - Shoulder",
+"since": "Thu, Aug 13"
 },
 {
 "n": "T. Hollinger",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Aug 11"
 }
 ],
 "Indiana": [
 {
+"n": "L. Beebe Jr.",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "T. Richard",
+"pos": "RB",
+"st": "Probable - Ankle",
+"since": "Wed, Sep 30"
+},
+{
 "n": "L. Bond",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
+}
+],
+"Iowa": [
+{
+"n": "H. Brown",
+"pos": "QB",
+"st": "Questionable - Shoulder",
+"since": "Tue, Oct 6"
 }
 ],
 "Iowa State": [
 {
+"n": "C. Greenlaw",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Oct 7"
+},
+{
+"n": "R. Barnes",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Oct 7"
+},
+{
+"n": "E. Miller",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "L. Galer",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "C. Pabst",
 "pos": "WR",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Sat, Oct 3"
 },
 {
 "n": "C. Crawford",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Singletary",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Sep 25"
 },
 {
 "n": "J. Bailey",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Sep 1"
+}
+],
+"James Madison": [
+{
+"n": "J. Evans",
+"pos": "QB",
+"st": "Questionable - Wrist",
+"since": "Sat, Oct 3"
+},
+{
+"n": "Z. Collins",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Jacksonville State": [
 {
+"n": "N. Hoyt",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "A. Watkins",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "J. Savage",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "F. Baret Jr.",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "R. Pinto",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "L. Watkins",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
 "n": "A. Paul",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Oct 7"
 }
 ],
 "Kansas": [
 {
+"n": "T. Nagy",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "C. Bruhn",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Butler",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "C. Moses",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "C. Ballard",
 "pos": "QB",
-"st": "Out - Shoulder"
+"st": "Out - Shoulder",
+"since": "Fri, Oct 2"
 },
 {
 "n": "K. Amachree",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "Y. Willis",
 "pos": "RB",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Mon, Sep 28"
 },
 {
 "n": "J. Mason",
 "pos": "QB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
 },
 {
 "n": "J. Thurman",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Aug 11"
 }
 ],
 "Kansas State": [
 {
 "n": "W. Anciaux",
 "pos": "TE",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Mon, Oct 5"
+},
+{
+"n": "A. Morrell",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "M. Lovett",
+"pos": "WR",
+"st": "Questionable - Arm",
+"since": "Sun, Sep 27"
+},
+{
+"n": "D. Duff",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "B. Barnett",
+"pos": "QB",
+"st": "Questionable - Lower Body",
+"since": "Sun, Sep 27"
+},
+{
+"n": "J. Knuth",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 },
 {
 "n": "J. Pastore",
 "pos": "OG",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Fri, Aug 21"
+}
+],
+"Kennesaw State": [
+{
+"n": "G. Bullock Jr.",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "Z. Booker",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+}
+],
+"Kent State": [
+{
+"n": "M. Stephens",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "D. Armentrout",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "E. Tucker",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "W. Bierfeldt",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Kentucky": [
 {
+"n": "L. Watkins",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "D. Miller",
+"pos": "WR",
+"st": "Questionable - Leg",
+"since": "Thu, Oct 8"
+},
+{
 "n": "T. Mizell",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Aug 22"
 }
 ],
 "Liberty": [
 {
 "n": "J. Marshall",
 "pos": "RB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Thu, Oct 8"
+},
+{
+"n": "B. Burklow",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "C. Wood",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "C. Ryan",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
 }
 ],
 "Louisiana": [
 {
 "n": "J. Norris",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
 },
 {
 "n": "D. Smith",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Oct 7"
 },
 {
 "n": "J. Birdlow",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "S. Sampson Jr.",
+"pos": "WR",
+"st": "Questionable - Knee",
+"since": "Sun, Sep 27"
 }
 ],
 "Louisiana Tech": [
 {
 "n": "D. Benedix",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "T. Kukuk",
+"pos": "QB",
+"st": "Questionable - Ankle",
+"since": "Thu, Oct 8"
+},
+{
+"n": "J. Miller",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Oct 4"
 },
 {
 "n": "B. Baker",
 "pos": "QB",
-"st": "Out - Hand"
+"st": "Out - Hand",
+"since": "Mon, Sep 14"
 }
 ],
 "UL Monroe": [
 {
 "n": "J. Wright",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "D. Jameson",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "Louisville": [
 {
+"n": "L. Kienholz",
+"pos": "QB",
+"st": "Questionable - Lower Body",
+"since": "Sat, Oct 3"
+},
+{
+"n": "E. Lewis",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
 "n": "H. Atkins",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "M. Quisenberry",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "K. Brown",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Wed, Sep 30"
+},
+{
+"n": "L. McCoy",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Sep 30"
 },
 {
 "n": "A. Watts",
 "pos": "CB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Fri, Sep 25"
+},
+{
+"n": "T. Richardson",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "P. Cook",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
+},
+{
+"n": "A. O'neal",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Sep 11"
 },
 {
 "n": "K. Hughes",
 "pos": "WR",
-"st": "Out - Lower Body"
+"st": "Out - Lower Body",
+"since": "Tue, Aug 11"
 }
 ],
 "LSU": [
 {
+"n": "T. Green",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "T. Dottery",
+"pos": "LB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "R. Guillory Jr.",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
 "n": "P. Wright III",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Sep 21"
 },
 {
 "n": "D. Spears",
 "pos": "S",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Mon, Sep 21"
+}
+],
+"Marshall": [
+{
+"n": "A. Norton",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Maryland": [
 {
+"n": "P. Howard",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "C. Williams",
+"pos": "QB",
+"st": "Probable - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
 "n": "L. Johnson",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 },
 {
 "n": "Z. Mathis",
 "pos": "LB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Thu, Aug 13"
 }
 ],
 "Miami (FL)": [
 {
 "n": "O. Ruskavich",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "M. Fletcher Jr.",
+"pos": "RB",
+"st": "Questionable - Upper Body",
+"since": "Sun, Sep 27"
 },
 {
 "n": "J. Moore",
 "pos": "WR",
-"st": "Out - Upper Body"
+"st": "Out - Upper Body",
+"since": "Mon, Sep 21"
 },
 {
 "n": "C. Brown",
 "pos": "RB",
-"st": "Out - Lower Body"
+"st": "Out - Lower Body",
+"since": "Mon, Sep 21"
 },
 {
 "n": "L. Gilbert",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Aug 11"
 }
 ],
 "Miami (OH)": [
 {
+"n": "D. Hyatt",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "N. Butbul",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Zvonar",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Boeing",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "C. Ross",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "D. McComb",
 "pos": "QB",
-"st": "Out - Upper Body"
+"st": "Out - Upper Body",
+"since": "Fri, Oct 2"
 },
 {
 "n": "C. Castner",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 19"
 },
 {
 "n": "E. Karner",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 5"
 },
 {
 "n": "K. Reynolds",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 5"
 },
 {
 "n": "T. Gotkowski",
 "pos": "QB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Aug 24"
 }
 ],
 "Michigan": [
 {
+"n": "J. Daley",
+"pos": "DL",
+"st": "Questionable - Lower Body",
+"since": "Mon, Sep 28"
+},
+{
 "n": "A. Sprague",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "L. Forbes",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "Michigan State": [
 {
 "n": "C. Wheatland",
 "pos": "LB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "C. Edwards",
+"pos": "RB",
+"st": "Questionable - Knee",
+"since": "Thu, Oct 8"
+},
+{
+"n": "C. Fancher",
+"pos": "QB",
+"st": "Questionable - Knee",
+"since": "Thu, Oct 8"
 }
 ],
 "Minnesota": [
 {
+"n": "B. Stevens",
+"pos": "WR",
+"st": "Questionable - Illness",
+"since": "Sat, Oct 3"
+},
+{
+"n": "Z. Bates",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Sunderland",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "A. Turner",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "R. Estrada",
 "pos": "RB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Mon, Sep 7"
 }
 ],
 "Ole Miss": [
 {
 "n": "K. Lacy",
 "pos": "RB",
-"st": "Out - Shoulder"
+"st": "Out - Shoulder",
+"since": "Sat, Sep 26"
+},
+{
+"n": "M. Frazier",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "Missouri": [
 {
 "n": "L. Kitchen",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "D. Smith",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "G. Hoffman",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "J. Brady",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "C. Green",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "A. Hardy",
 "pos": "RB",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Fri, Sep 11"
 }
 ],
 "Missouri State": [
 {
 "n": "J. Rexroat",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
 },
 {
 "n": "J. Joyner",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "M. Cope",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "Mississippi State": [
 {
+"n": "J. Freeman",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "A. Williams",
 "pos": "WR",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Thu, Oct 1"
 },
 {
 "n": "T. Williams",
 "pos": "DL",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Sat, Sep 26"
 },
 {
 "n": "B. Mitchell",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
+}
+],
+"Navy": [
+{
+"n": "L. Walker",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Chalmers",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "M. Barlow",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "NC State": [
 {
+"n": "N. Moss",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Oct 4"
+},
+{
+"n": "N. Konieczynski",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
 "n": "I. Flynt",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "G. Ritchey",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "T. Copper",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "V. Ploog",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 }
 ],
 "North Dakota State": [
 {
+"n": "N. Nelson",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Harvey",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "H. Nelson",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "D. Schlosser",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Danner",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Toliver",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Kpeenu",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. LeGrant",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "M. Mitchell",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "D. Scott",
 "pos": "RB",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Sat, Oct 3"
 },
 {
 "n": "B. Walton",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "K. Schlichting",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "Nebraska": [
 {
+"n": "C. Nelson",
+"pos": "TE",
+"st": "Questionable - Leg",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Rule",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "L. Miles",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "New Mexico": [
 {
 "n": "T. Omeire",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "S. Miller",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "T. Walsh",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "M. Mingo",
 "pos": "WR",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Sat, Sep 26"
+},
+{
+"n": "D. Bowers",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "A. Williams",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "J. Layne",
 "pos": "QB",
-"st": "Out - Elbow"
+"st": "Out - Elbow",
+"since": "Thu, Aug 27"
 },
 {
 "n": "J. Olsen",
 "pos": "TE",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Tue, Aug 11"
+}
+],
+"New Mexico State": [
+{
+"n": "I. Uvaydov",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "R. Burton",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "R. Lotten",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+}
+],
+"Northern Illinois": [
+{
+"n": "G. Weber",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Sep 21"
 }
 ],
 "North Carolina": [
 {
 "n": "J. Washington",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 19"
 },
 {
 "n": "K. Chapman",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
 },
 {
 "n": "C. Warren",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Sep 16"
 },
 {
 "n": "J. Warren",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Aug 21"
+}
+],
+"North Texas": [
+{
+"n": "B. Haygood",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "J. Martin",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "V. Aderungboye",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "D. Clemens",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "J. Tyre",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
 }
 ],
 "Northwestern": [
 {
 "n": "L. Dehnicke",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 },
 {
 "n": "J. Fussell",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. McDuffie",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "T. McGlinchey",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Sep 29"
 },
 {
 "n": "B. Turner",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Sep 25"
 },
 {
 "n": "C. Farrell",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Sep 25"
 },
 {
 "n": "C. Petrucci",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Sep 22"
 }
 ],
 "Notre Dame": [
 {
 "n": "K. Viliamu-Asa",
 "pos": "LB",
-"st": "Out - Thumb"
+"st": "Out - Thumb",
+"since": "Thu, Oct 8"
+},
+{
+"n": "L. Moore",
+"pos": "CB",
+"st": "Questionable - Concussion",
+"since": "Mon, Oct 5"
+},
+{
+"n": "B. Hebert",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "Q. Porter",
 "pos": "WR",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Mon, Sep 28"
 }
 ],
 "Ohio": [
 {
+"n": "R. Perry",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "N. Poulos",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "H. Grand",
 "pos": "QB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
 }
 ],
 "Ohio State": [
 {
+"n": "L. Bey",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "A. Valerio-Hudson",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "B. Christian",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "T. Rogers",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "K. Parker",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
 }
 ],
 "Oklahoma": [
 {
+"n": "K. Lewis",
+"pos": "LB",
+"st": "Questionable - Knee",
+"since": "Thu, Oct 8"
+},
+{
+"n": "J. Carter",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "D. Stone",
+"pos": "DL",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
 "n": "T. Harris",
 "pos": "WR",
-"st": "Out - Back"
+"st": "Out - Back",
+"since": "Tue, Sep 15"
 }
 ],
 "Oklahoma State": [
 {
+"n": "J. Sexton",
+"pos": "OG",
+"st": "Questionable - Leg",
+"since": "Sun, Sep 27"
+},
+{
 "n": "O. Hammond",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "Oregon": [
 {
 "n": "D. Moore",
 "pos": "QB",
-"st": "Out - Concussion"
+"st": "Out - Concussion",
+"since": "Wed, Oct 7"
+},
+{
+"n": "J. Lott",
+"pos": "WR",
+"st": "Questionable - Hand",
+"since": "Sun, Sep 27"
+},
+{
+"n": "I. Hooks",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "J. Johnson",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "D. Gresham",
+"pos": "WR",
+"st": "Questionable - Neck",
+"since": "Sun, Sep 27"
+},
+{
+"n": "S. Price",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "K. Harrison",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 },
 {
 "n": "J. McClellan",
 "pos": "WR",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Mon, Sep 21"
 }
 ],
 "Oregon State": [
 {
 "n": "K. Glass",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 }
 ],
 "Penn State": [
 {
 "n": "C. Rosa",
 "pos": "K",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "D. Sheffey",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "B. Kortovich",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 },
 {
 "n": "K. Howard",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Sep 23"
 },
 {
 "n": "M. Granville",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 12"
 }
 ],
 "Pittsburgh": [
 {
+"n": "E. Lagg",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "M. Hunt",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "R. Dunbar",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Cook",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Kinsler",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "M. Knight",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "M. Heintschel",
+"pos": "QB",
+"st": "Out - Knee (torn ACL, season)",
+"since": "Fri, Oct 2",
+"source": "WPXI / ESPN (Pete Thamel), Oct 3, 2026: out for the season; Covers still lists him questionable",
+"override": true
 }
 ],
 "Purdue": [
 {
 "n": "K. Fox",
 "pos": "TE",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Thu, Aug 13"
+}
+],
+"Rice": [
+{
+"n": "D. Lane",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "J. Falk",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "P. Zinter",
+"pos": "TE",
+"st": "Questionable - Leg",
+"since": "Sun, Sep 20"
 }
 ],
 "Rutgers": [
 {
 "n": "D. Lonergan",
 "pos": "QB",
-"st": "Out - Head"
+"st": "Out - Head",
+"since": "Sun, Oct 4"
+},
+{
+"n": "A. Raymond",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Sep 30"
+},
+{
+"n": "D. Kaliakmanis",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
 },
 {
 "n": "K. Levy",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 17"
+},
+{
+"n": "F. Toure",
+"pos": "WR",
+"st": "Questionable - Knee",
+"since": "Fri, Sep 11"
+}
+],
+"Sacramento State": [
+{
+"n": "K. Peevy",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "D. Godley",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "C. Borders",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "A. Bryant",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "E. Huddle",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "B. Collins",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 }
 ],
 "Sam Houston": [
 {
 "n": "B. Kuhl",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
 }
 ],
 "San Diego State": [
 {
+"n": "J. Kinnard",
+"pos": "RB",
+"st": "Questionable - Knee",
+"since": "Sun, Oct 4"
+},
+{
+"n": "B. Emanuel Jr.",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "J. Ford",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
 "n": "A. Doe",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "D. Brown",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "J. Bostick",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "P. Guiltinan",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Ellis",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "R. Wolfer",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "L. Sutton",
+"pos": "RB",
+"st": "Questionable - Ankle",
+"since": "Tue, Sep 29"
 }
 ],
 "SMU": [
 {
+"n": "N. Reed",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "Y. Knight",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Tue, Sep 29"
+},
+{
 "n": "I. Singleton IV",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Sep 29"
+},
+{
+"n": "Y. Smith",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Tue, Sep 29"
+},
+{
+"n": "E. Kelly",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Sep 17"
+},
+{
+"n": "M. Uter",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 12"
+},
+{
+"n": "C. Rhodes",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 12"
 },
 {
 "n": "L. Rhodes",
 "pos": "RB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Wed, Aug 26"
 }
 ],
 "South Alabama": [
 {
 "n": "K. Marion",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "D. White",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "B. Barnes",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "M. Lynch",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "South Carolina": [
 {
+"n": "J. Peak",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "L. Anderson III",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "G. Brownlow-Dindy",
+"pos": "DL",
+"st": "Questionable - Upper Body",
+"since": "Thu, Oct 8"
+},
+{
 "n": "D. Stewart",
 "pos": "DL",
-"st": "Out - Back"
+"st": "Out - Back",
+"since": "Sun, Sep 20"
 },
 {
 "n": "J. Sellers",
 "pos": "WR",
-"st": "Out - Lower Body"
+"st": "Out - Lower Body",
+"since": "Mon, Aug 17"
 },
 {
 "n": "J. Gibson",
 "pos": "WR",
-"st": "Out - Lower Body"
+"st": "Out - Lower Body",
+"since": "Mon, Aug 17"
 }
 ],
 "South Florida": [
 {
 "n": "J. Alexis",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
 },
 {
 "n": "A. Branch",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
 }
 ],
 "Southern Miss": [
 {
 "n": "E. Hampton",
 "pos": "QB",
-"st": "Out - Hand"
+"st": "Out - Hand",
+"since": "Fri, Sep 25"
 },
 {
 "n": "J. Himes",
 "pos": "WR",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Fri, Sep 25"
 },
 {
 "n": "G. Page",
 "pos": "WR",
-"st": "Out - Elbow"
+"st": "Out - Elbow",
+"since": "Tue, Sep 22"
 }
 ],
 "Stanford": [
 {
+"n": "N. Prongos",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "L. Bironas",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "D. Sharper",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Shaw",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "A. Kilstrom",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "J. Galvan",
 "pos": "LB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Sep 19"
+}
+],
+"Syracuse": [
+{
+"n": "J. Johnson",
+"pos": "RB",
+"st": "Questionable - Hand",
+"since": "Sun, Oct 4"
+},
+{
+"n": "N. Edwards",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "TCU": [
 {
 "n": "M. Short",
 "pos": "LB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Pitchford",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "K. Lemmermann",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Dwyer",
 "pos": "WR",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Fri, Sep 11"
+}
+],
+"Temple": [
+{
+"n": "J. Smolik",
+"pos": "QB",
+"st": "Questionable - Foot",
+"since": "Sun, Oct 4"
+},
+{
+"n": "S. Brown V",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Sep 28"
+},
+{
+"n": "R. Stocksdale",
+"pos": "WR",
+"st": "Questionable - Hamstring",
+"since": "Fri, Sep 25"
+},
+{
+"n": "C. Logan",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Sep 25"
+},
+{
+"n": "R. Hardy",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Sep 25"
 }
 ],
 "Tennessee": [
 {
+"n": "B. Brady",
+"pos": "LS",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
 "n": "Q. Moss",
 "pos": "CB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 },
 {
 "n": "W. Moe Jr.",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Sep 30"
+},
+{
+"n": "J. Gordon",
+"pos": "RB",
+"st": "Questionable - Leg",
+"since": "Sat, Sep 26"
 },
 {
 "n": "J. Harmon",
 "pos": "LB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Mon, Sep 7"
+}
+],
+"Texas": [
+{
+"n": "C. Coleman",
+"pos": "WR",
+"st": "Probable - Back",
+"since": "Mon, Sep 28"
+},
+{
+"n": "D. McCutcheon",
+"pos": "WR",
+"st": "Questionable - Illness",
+"since": "Sat, Sep 26"
+},
+{
+"n": "T. Goosby",
+"pos": "OG",
+"st": "Questionable - Knee",
+"since": "Sat, Sep 26"
+},
+{
+"n": "N. Townsend",
+"pos": "TE",
+"st": "Questionable - Knee",
+"since": "Sat, Sep 26"
+},
+{
+"n": "H. Smothers",
+"pos": "RB",
+"st": "Questionable - Ankle",
+"since": "Sat, Sep 26"
 }
 ],
 "Texas A&M": [
 {
 "n": "B. Ivy",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "J. Morrow",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
 },
 {
 "n": "T. Bussey",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Sep 21"
 },
 {
 "n": "M. Williams",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sun, Sep 6"
 },
 {
 "n": "T. Riden Jr.",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Aug 27"
 }
 ],
 "Texas State": [
 {
 "n": "C. Snodgrass",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "J. Sample",
+"pos": "LB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "K. Evans",
+"pos": "WR",
+"st": "Questionable - Shoulder",
+"since": "Sun, Sep 27"
 }
 ],
 "Texas Tech": [
 {
 "n": "C. Dickey",
 "pos": "RB",
-"st": "Out - Ankle"
+"st": "Out - Ankle",
+"since": "Mon, Oct 5"
+},
+{
+"n": "T. Carter Jr.",
+"pos": "TE",
+"st": "Probable - Shoulder",
+"since": "Mon, Sep 28"
+},
+{
+"n": "T. White",
+"pos": "LB",
+"st": "Questionable - Knee",
+"since": "Sat, Sep 26"
+},
+{
+"n": "A. Boyd",
+"pos": "CB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
+}
+],
+"Toledo": [
+{
+"n": "T. Kelleher",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "K. Gilbert Jr.",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Jones",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Troy": [
 {
+"n": "F. Rogosch",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Tue, Oct 6"
+},
+{
 "n": "J. Worley",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Tulane": [
 {
 "n": "J. McClure",
 "pos": "RB",
-"st": "Out - Foot"
+"st": "Out - Foot",
+"since": "Sun, Sep 27"
+},
+{
+"n": "Z. Lewis Jr.",
+"pos": "WR",
+"st": "Questionable - Leg",
+"since": "Sun, Sep 27"
+}
+],
+"Tulsa": [
+{
+"n": "J. Calloway",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "G. Tempest",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+}
+],
+"UAB": [
+{
+"n": "A. Ferguson",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Oct 4"
 }
 ],
 "UCF": [
 {
+"n": "D. Thomas Jr.",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Mon, Oct 5"
+},
+{
+"n": "A. Barnett III",
+"pos": "QB",
+"st": "Questionable - Hamstring",
+"since": "Mon, Oct 5"
+},
+{
+"n": "J. Bibbs",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "D. Wade",
+"pos": "TE",
+"st": "Questionable - Shoulder",
+"since": "Thu, Oct 1"
+},
+{
+"n": "K. Jenkins",
+"pos": "QB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
 "n": "L. Carter",
 "pos": "LB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 }
 ],
 "UCLA": [
 {
 "n": "M. Matthews",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Sep 21"
+},
+{
+"n": "T. Johnson",
+"pos": "CB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "J. Johnson",
+"pos": "CB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "S. Yoon",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "A. Mizell",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "T. Dieffenbach",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
+},
+{
+"n": "J. Phifer",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 }
 ],
 "UConn": [
 {
 "n": "J. Brown",
 "pos": "WR",
-"st": "Out - Concussion"
+"st": "Out - Concussion",
+"since": "Mon, Oct 5"
+},
+{
+"n": "K. Christian",
+"pos": "RB",
+"st": "Questionable - Hamstring",
+"since": "Sun, Oct 4"
+},
+{
+"n": "J. Merklinger",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Massachusetts": [
 {
 "n": "J. Washington",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Griffin Jr.",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+}
+],
+"UNLV": [
+{
+"n": "T. Lyons",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Oct 4"
+},
+{
+"n": "K. McGee",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
+},
+{
+"n": "D. Irvin Jr.",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Sep 26"
 }
 ],
 "USC": [
 {
 "n": "C. Simms",
 "pos": "WR",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Fri, Oct 2"
 },
 {
 "n": "T. Mosley",
 "pos": "WR",
-"st": "Doubtful - Knee"
+"st": "Doubtful - Knee",
+"since": "Fri, Oct 2"
+},
+{
+"n": "M. Bowman",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Wed, Sep 30"
+},
+{
+"n": "R. Tezeno",
+"pos": "WR",
+"st": "Questionable - Foot",
+"since": "Sun, Sep 27"
+},
+{
+"n": "S. Huard",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "R. Ison",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "D. Redeaux",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "K. Reddick",
+"pos": "S",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
 },
 {
 "n": "K. O'Connor",
 "pos": "OG",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Aug 11"
+}
+],
+"Utah": [
+{
+"n": "M. Carvalho",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Sep 24"
 }
 ],
 "Utah State": [
 {
 "n": "R. Haynes",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Oct 7"
 },
 {
 "n": "N. Boncore",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Oct 7"
+},
+{
+"n": "D. Starling",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "J. Robinson",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "J. Jacobs",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "M. Hillstead",
+"pos": "QB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "N. White",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "G. Brosterhous",
+"pos": "QB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "S. Vailahi",
+"pos": "RB",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "C. Remenowsky",
+"pos": "TE",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "K. Kaio",
+"pos": "TE",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "A. Garcia",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Nelson",
 "pos": "TE",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "E. Wood",
+"pos": "WR",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "UTEP": [
 {
+"n": "E. Colson Jr.",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Tue, Oct 6"
+},
+{
+"n": "L. Sperling",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Jones",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "C. Simon",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "M. Ferguson",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 }
 ],
 "Vanderbilt": [
 {
+"n": "J. Curtis",
+"pos": "LB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Curtis",
+"pos": "QB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "K. Smith",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Fri, Oct 2"
 }
 ],
 "Virginia": [
 {
+"n": "D. Newton-Short",
+"pos": "WR",
+"st": "Questionable - Hamstring",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Hamann",
+"pos": "K",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Stevens",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "P. Lewis",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "T. Ward",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 1"
 },
 {
 "n": "J. Hammond",
 "pos": "DL",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Tue, Sep 15"
+}
+],
+"Virginia Tech": [
+{
+"n": "B. Davis",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "S. Peterkin",
+"pos": "WR",
+"st": "Questionable - Foot",
+"since": "Sat, Oct 3"
+},
+{
+"n": "T. Heath",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "K. Altuner",
+"pos": "OG",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "L. Stuewe",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Wake Forest": [
 {
 "n": "N. Carr",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Wed, Sep 16"
 }
 ],
 "Washington": [
 {
 "n": "C. Christian",
 "pos": "S",
-"st": "Out - Achilles"
+"st": "Out - Achilles",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Moss",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 20"
 },
 {
 "n": "J. Limar",
 "pos": "RB",
-"st": "Out - Upper Body"
+"st": "Out - Upper Body",
+"since": "Mon, Sep 7"
 },
 {
 "n": "Q. Carr",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Mon, Sep 7"
 }
 ],
 "Washington State": [
 {
+"n": "T. Leckner",
+"pos": "TE",
+"st": "Probable - Undisclosed",
+"since": "Thu, Oct 1"
+},
+{
+"n": "R. McKendry",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
+"n": "C. Toney",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sun, Sep 27"
+},
+{
 "n": "T. Freeman",
 "pos": "WR",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Mon, Sep 14"
 },
 {
 "n": "H. Cedarland",
 "pos": "TE",
-"st": "Out - Leg"
+"st": "Out - Leg",
+"since": "Sun, Aug 23"
+}
+],
+"West Virginia": [
+{
+"n": "C. Ball",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "C. Talley",
+"pos": "RB",
+"st": "Questionable - Hamstring",
+"since": "Sat, Oct 3"
+},
+{
+"n": "A. Devine",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "M. Boswell",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
 }
 ],
 "Western Kentucky": [
 {
 "n": "S. Baines",
 "pos": "RB",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "K. Hutchinson",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "G. Reimer",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
+},
+{
+"n": "A. Boyd",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Fri, Oct 2"
 }
 ],
 "Western Michigan": [
 {
+"n": "M. Dersa",
+"pos": "TE",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
 "n": "P. Domschke",
 "pos": "K",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Sat, Oct 3"
+}
+],
+"Wisconsin": [
+{
+"n": "M. Lane",
+"pos": "RB",
+"st": "Questionable - Undisclosed",
+"since": "Thu, Oct 8"
+},
+{
+"n": "D. O'Neil",
+"pos": "QB",
+"st": "Questionable - Lower Body",
+"since": "Sat, Oct 3"
+},
+{
+"n": "J. Domingeaux",
+"pos": "WR",
+"st": "Questionable - Undisclosed",
+"since": "Sat, Oct 3"
+},
+{
+"n": "A. Sama III",
+"pos": "RB",
+"st": "Questionable - Upper Body",
+"since": "Sat, Oct 3"
 }
 ],
 "Wyoming": [
 {
 "n": "D. DeBlanc",
 "pos": "WR",
-"st": "Out - Toe"
+"st": "Out - Toe",
+"since": "Mon, Oct 5"
+},
+{
+"n": "D. Hubbard",
+"pos": "RB",
+"st": "Questionable - Knee",
+"since": "Sat, Oct 3"
 },
 {
 "n": "K. Washom",
 "pos": "WR",
-"st": "Out - Undisclosed"
+"st": "Out - Undisclosed",
+"since": "Thu, Sep 24"
 },
 {
 "n": "T. Nystrom",
 "pos": "WR",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Tue, Aug 11"
 },
 {
 "n": "T. Hasselbeck",
 "pos": "QB",
-"st": "Out - Knee"
+"st": "Out - Knee",
+"since": "Tue, Aug 11"
 }
 ]
 }

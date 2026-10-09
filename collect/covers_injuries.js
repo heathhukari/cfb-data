@@ -1,5 +1,5 @@
 // Run with javascript_tool on https://www.covers.com/sport/football/ncaaf/injuries (built-in browser).
-// Returns {school: [[name, pos, status], ...]} for every FBS team (138); status like "Out - Knee" or "Questionable - Ankle".
+// Returns {school: [[name, pos, status, since], ...]} for every FBS team (138); status like "Out - Knee" or "Questionable - Ankle", since like "Mon, Oct 5".
 (() => {
   const out = {};
   document.querySelectorAll('.covers-CoversMatchups-injuryContainer').forEach(c => {
@@ -8,7 +8,7 @@
     out[img.alt.trim()] = [...tb.querySelectorAll('tbody > tr:not(.collapse)')]
       .map(tr => [...tr.children].slice(0, 3).map(td => td.innerText.replace(/\s+/g, ' ').trim()))
       .filter(r => r.length === 3 && r[1])
-      .map(r => [r[0], r[1], r[2].replace(/\s*\(.*$/, '')]);
+      .map(r => { const m = r[2].match(/^(.*?)\s*\(\s*(.*?)\)\s*$/); return [r[0], r[1], m ? m[1] : r[2], m ? m[2] : ""]; });
   });
   return out;
 })()

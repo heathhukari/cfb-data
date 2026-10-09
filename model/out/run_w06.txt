@@ -1,4 +1,4 @@
-/home/claude/cfb-data/model/out/playermodel_2026_w06.json 251578 bytes
+/home/claude/cfb-data/model/out/playermodel_2026_w06.json 253556 bytes
 1 Alabama pm 26.4 (claude 25.6 data 27.5 qb 0.0 inj 0.0 ) claudeRank 1
 2 Ohio State pm 25.7 (claude 26.4 data 24.7 qb 0.0 inj 0.0 ) claudeRank 2
 3 Texas pm 21.2 (claude 22.2 data 19.9 qb 0.0 inj 0.0 ) claudeRank 3
@@ -21,13 +21,13 @@
 20 UCLA pm 11.2 (claude 12.7 data 9.1 qb 0.0 inj 0.0 ) claudeRank 20
 21 Wisconsin pm 10.1 (claude 10.0 data 10.4 qb 0.0 inj 0.0 ) claudeRank 23
 22 Houston pm 12.9 (claude 13.6 data 11.9 qb 0.0 inj 0.0 ) claudeRank 22
-23 Pittsburgh pm 11.3 (claude 13.0 data 8.8 qb 0.0 inj 0.0 ) claudeRank 21
-24 Boise State pm 10.9 (claude 11.3 data 10.4 qb 0.0 inj 0.0 ) claudeRank 24
-25 USC pm 12.5 (claude 12.7 data 12.2 qb 0.0 inj 0.0 ) claudeRank 26
+23 Boise State pm 10.9 (claude 11.3 data 10.4 qb 0.0 inj 0.0 ) claudeRank 24
+24 Kentucky pm 8.6 (claude 9.1 data 7.9 qb 0.0 inj 0.0 ) claudeRank 27
+25 Wake Forest pm 8.3 (claude 9.3 data 6.7 qb 0.0 inj 0.0 ) claudeRank 25
 games 21 teams 46
+North Carolina @ Pittsburgh PM 1.1 Claude 11.5 Vegas -4.0 []
 Iowa State @ BYU PM 9.8 Claude 14.2 Vegas -10.5 []
 UCLA @ Oregon PM 12.9 Claude 9.0 Vegas -11.5 []
 Kansas @ Utah PM 18.2 Claude 15.8 Vegas None ['Strength on strength: Kansas run game #14 vs Utah run defense #20']
 UCF @ Oklahoma State PM 1.4 Claude 3.3 Vegas -9.5 []
 Ball State @ Northwestern PM 32.4 Claude 34.1 Vegas -36.5 ['Mismatch: Northwestern run game #15 vs Ball State run defense #135']
-Georgia @ Alabama PM 2.7 Claude 1.0 Vegas -1.5 ['Strength on strength: Alabama run game #8 vs Georgia run defense #5', 'Strength on strength: Georgia pass game #10 vs Alabama pass defense #11']

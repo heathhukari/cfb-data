@@ -123,10 +123,11 @@ def main(year, week, inj_path=None):
         if not t: continue
         pl, qi = players.get(t, {}), qbinfo.get(t, {})
         for x in lst:
-            st = str(x.get("st", "")); out = st.lower().startswith("out"); nm = x.get("n", "")
+            st = str(x.get("st", "")); nm = x.get("n", "")
+            out = st.lower().startswith(("out", "ir", "doubtful"))  # doubtful and injured reserve count as out
             if qi.get("starter") and same(nm, qi["starter"]):
                 if not out:
-                    injadj[t].append({"player": nm, "pos": "QB", "status": st, "pts": 0.0, "note": "starting QB listed doubtful — not adjusted"}); continue
+                    injadj[t].append({"player": nm, "pos": "QB", "status": st, "pts": 0.0, "note": "starting QB is " + (st.split(" - ")[0].lower() or "listed") + " — no adjustment unless ruled out"}); continue
                 bk = [k for k, a in sorted(qi["backups"].items(), key=lambda kv: -kv[1]) if a >= 30]
                 rep_epa, who = repl, "replacement level"
                 if bk:
