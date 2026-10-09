@@ -1,0 +1,2407 @@
+{
+ "job": "custom",
+ "request": {
+  "job": "custom",
+  "maxCalls": 78,
+  "note": "Research pull Oct 9: garbage-time-filtered advanced stats, team box stats (turnover luck), returning production, talent, 2023 SP+, venues.",
+  "calls": [
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w01",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 1,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w01",
+    "path": "/games/teams",
+    "params": {
+     "week": 1,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w02",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 2,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w02",
+    "path": "/games/teams",
+    "params": {
+     "week": 2,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w03",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 3,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w03",
+    "path": "/games/teams",
+    "params": {
+     "week": 3,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w04",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 4,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w04",
+    "path": "/games/teams",
+    "params": {
+     "week": 4,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w05",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 5,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w05",
+    "path": "/games/teams",
+    "params": {
+     "week": 5,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w06",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 6,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w06",
+    "path": "/games/teams",
+    "params": {
+     "week": 6,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w07",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 7,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w07",
+    "path": "/games/teams",
+    "params": {
+     "week": 7,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w08",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 8,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w08",
+    "path": "/games/teams",
+    "params": {
+     "week": 8,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w09",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 9,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w09",
+    "path": "/games/teams",
+    "params": {
+     "week": 9,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w10",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 10,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w10",
+    "path": "/games/teams",
+    "params": {
+     "week": 10,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w11",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 11,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w11",
+    "path": "/games/teams",
+    "params": {
+     "week": 11,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w12",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 12,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w12",
+    "path": "/games/teams",
+    "params": {
+     "week": 12,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w13",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 13,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w13",
+    "path": "/games/teams",
+    "params": {
+     "week": 13,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w14",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 14,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w14",
+    "path": "/games/teams",
+    "params": {
+     "week": 14,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "game_advanced_gt_w15",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 15,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "team_box_w15",
+    "path": "/games/teams",
+    "params": {
+     "week": 15,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w01",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 1,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w01",
+    "path": "/games/teams",
+    "params": {
+     "week": 1,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w02",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 2,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w02",
+    "path": "/games/teams",
+    "params": {
+     "week": 2,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w03",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 3,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w03",
+    "path": "/games/teams",
+    "params": {
+     "week": 3,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w04",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 4,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w04",
+    "path": "/games/teams",
+    "params": {
+     "week": 4,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w05",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 5,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w05",
+    "path": "/games/teams",
+    "params": {
+     "week": 5,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w06",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 6,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w06",
+    "path": "/games/teams",
+    "params": {
+     "week": 6,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w07",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 7,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w07",
+    "path": "/games/teams",
+    "params": {
+     "week": 7,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w08",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 8,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w08",
+    "path": "/games/teams",
+    "params": {
+     "week": 8,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w09",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 9,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w09",
+    "path": "/games/teams",
+    "params": {
+     "week": 9,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w10",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 10,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w10",
+    "path": "/games/teams",
+    "params": {
+     "week": 10,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w11",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 11,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w11",
+    "path": "/games/teams",
+    "params": {
+     "week": 11,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w12",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 12,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w12",
+    "path": "/games/teams",
+    "params": {
+     "week": 12,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w13",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 13,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w13",
+    "path": "/games/teams",
+    "params": {
+     "week": 13,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w14",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 14,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w14",
+    "path": "/games/teams",
+    "params": {
+     "week": 14,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "game_advanced_gt_w15",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 15,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2025,
+    "name": "team_box_w15",
+    "path": "/games/teams",
+    "params": {
+     "week": 15,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "game_advanced_gt_w01",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 1,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "team_box_w01",
+    "path": "/games/teams",
+    "params": {
+     "week": 1,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "game_advanced_gt_w02",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 2,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "team_box_w02",
+    "path": "/games/teams",
+    "params": {
+     "week": 2,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "game_advanced_gt_w03",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 3,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "team_box_w03",
+    "path": "/games/teams",
+    "params": {
+     "week": 3,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "game_advanced_gt_w04",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 4,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "team_box_w04",
+    "path": "/games/teams",
+    "params": {
+     "week": 4,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "game_advanced_gt_w05",
+    "path": "/stats/game/advanced",
+    "params": {
+     "week": 5,
+     "seasonType": "regular",
+     "excludeGarbageTime": "true"
+    }
+   },
+   {
+    "year": 2026,
+    "name": "team_box_w05",
+    "path": "/games/teams",
+    "params": {
+     "week": 5,
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2024,
+    "name": "returning",
+    "path": "/player/returning",
+    "params": {}
+   },
+   {
+    "year": 2024,
+    "name": "talent",
+    "path": "/talent",
+    "params": {}
+   },
+   {
+    "year": 2025,
+    "name": "returning",
+    "path": "/player/returning",
+    "params": {}
+   },
+   {
+    "year": 2025,
+    "name": "talent",
+    "path": "/talent",
+    "params": {}
+   },
+   {
+    "year": 2026,
+    "name": "returning",
+    "path": "/player/returning",
+    "params": {}
+   },
+   {
+    "year": 2026,
+    "name": "talent",
+    "path": "/talent",
+    "params": {}
+   },
+   {
+    "year": 2023,
+    "name": "sp_ratings",
+    "path": "/ratings/sp",
+    "params": {}
+   },
+   {
+    "year": 2026,
+    "name": "venues",
+    "path": "/venues",
+    "params": {}
+   }
+  ]
+ },
+ "ranAt": "2026-10-09T04:35:48.060853+00:00",
+ "callsUsed": 78,
+ "callsThisMonth": 228,
+ "results": [
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w01",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 1,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 487361,
+   "file": "data/2024/raw/game_advanced_gt_w01.json.gz",
+   "rows": 266,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w01",
+   "path": "/games/teams",
+   "params": {
+    "week": 1,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 278363,
+   "file": "data/2024/raw/team_box_w01.json.gz",
+   "rows": 100,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w02",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 2,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 473873,
+   "file": "data/2024/raw/game_advanced_gt_w02.json.gz",
+   "rows": 258,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w02",
+   "path": "/games/teams",
+   "params": {
+    "week": 2,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 218619,
+   "file": "data/2024/raw/team_box_w02.json.gz",
+   "rows": 78,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w03",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 3,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 420081,
+   "file": "data/2024/raw/game_advanced_gt_w03.json.gz",
+   "rows": 228,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w03",
+   "path": "/games/teams",
+   "params": {
+    "week": 3,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 177575,
+   "file": "data/2024/raw/team_box_w03.json.gz",
+   "rows": 63,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w04",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 4,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 408933,
+   "file": "data/2024/raw/game_advanced_gt_w04.json.gz",
+   "rows": 222,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w04",
+   "path": "/games/teams",
+   "params": {
+    "week": 4,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 180358,
+   "file": "data/2024/raw/team_box_w04.json.gz",
+   "rows": 64,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w05",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 5,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 367967,
+   "file": "data/2024/raw/game_advanced_gt_w05.json.gz",
+   "rows": 200,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w05",
+   "path": "/games/teams",
+   "params": {
+    "week": 5,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 155481,
+   "file": "data/2024/raw/team_box_w05.json.gz",
+   "rows": 55,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w06",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 6,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 372383,
+   "file": "data/2024/raw/game_advanced_gt_w06.json.gz",
+   "rows": 202,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w06",
+   "path": "/games/teams",
+   "params": {
+    "week": 6,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 135224,
+   "file": "data/2024/raw/team_box_w06.json.gz",
+   "rows": 49,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w07",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 7,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 380151,
+   "file": "data/2024/raw/game_advanced_gt_w07.json.gz",
+   "rows": 206,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w07",
+   "path": "/games/teams",
+   "params": {
+    "week": 7,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 145712,
+   "file": "data/2024/raw/team_box_w07.json.gz",
+   "rows": 52,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w08",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 8,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 412453,
+   "file": "data/2024/raw/game_advanced_gt_w08.json.gz",
+   "rows": 224,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w08",
+   "path": "/games/teams",
+   "params": {
+    "week": 8,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 168118,
+   "file": "data/2024/raw/team_box_w08.json.gz",
+   "rows": 59,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w09",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 9,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 406855,
+   "file": "data/2024/raw/game_advanced_gt_w09.json.gz",
+   "rows": 220,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w09",
+   "path": "/games/teams",
+   "params": {
+    "week": 9,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 160799,
+   "file": "data/2024/raw/team_box_w09.json.gz",
+   "rows": 57,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w10",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 10,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 379909,
+   "file": "data/2024/raw/game_advanced_gt_w10.json.gz",
+   "rows": 206,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w10",
+   "path": "/games/teams",
+   "params": {
+    "week": 10,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 137501,
+   "file": "data/2024/raw/team_box_w10.json.gz",
+   "rows": 49,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w11",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 11,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 402919,
+   "file": "data/2024/raw/game_advanced_gt_w11.json.gz",
+   "rows": 218,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w11",
+   "path": "/games/teams",
+   "params": {
+    "week": 11,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 140494,
+   "file": "data/2024/raw/team_box_w11.json.gz",
+   "rows": 50,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w12",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 12,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 410005,
+   "file": "data/2024/raw/game_advanced_gt_w12.json.gz",
+   "rows": 222,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w12",
+   "path": "/games/teams",
+   "params": {
+    "week": 12,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 155246,
+   "file": "data/2024/raw/team_box_w12.json.gz",
+   "rows": 55,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w13",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 13,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 446503,
+   "file": "data/2024/raw/game_advanced_gt_w13.json.gz",
+   "rows": 242,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w13",
+   "path": "/games/teams",
+   "params": {
+    "week": 13,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 183533,
+   "file": "data/2024/raw/team_box_w13.json.gz",
+   "rows": 65,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w14",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 14,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 280295,
+   "file": "data/2024/raw/game_advanced_gt_w14.json.gz",
+   "rows": 152,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w14",
+   "path": "/games/teams",
+   "params": {
+    "week": 14,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 190466,
+   "file": "data/2024/raw/team_box_w14.json.gz",
+   "rows": 67,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_gt_w15",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 15,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 66171,
+   "file": "data/2024/raw/game_advanced_gt_w15.json.gz",
+   "rows": 36,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "team_box_w15",
+   "path": "/games/teams",
+   "params": {
+    "week": 15,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 24652,
+   "file": "data/2024/raw/team_box_w15.json.gz",
+   "rows": 9,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w01",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 1,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 517225,
+   "file": "data/2025/raw/game_advanced_gt_w01.json.gz",
+   "rows": 282,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w01",
+   "path": "/games/teams",
+   "params": {
+    "week": 1,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 263390,
+   "file": "data/2025/raw/team_box_w01.json.gz",
+   "rows": 96,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w02",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 2,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 430333,
+   "file": "data/2025/raw/game_advanced_gt_w02.json.gz",
+   "rows": 234,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w02",
+   "path": "/games/teams",
+   "params": {
+    "week": 2,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 231078,
+   "file": "data/2025/raw/team_box_w02.json.gz",
+   "rows": 83,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w03",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 3,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 445489,
+   "file": "data/2025/raw/game_advanced_gt_w03.json.gz",
+   "rows": 242,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w03",
+   "path": "/games/teams",
+   "params": {
+    "week": 3,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 194959,
+   "file": "data/2025/raw/team_box_w03.json.gz",
+   "rows": 70,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w04",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 4,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 425687,
+   "file": "data/2025/raw/game_advanced_gt_w04.json.gz",
+   "rows": 232,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w04",
+   "path": "/games/teams",
+   "params": {
+    "week": 4,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 171415,
+   "file": "data/2025/raw/team_box_w04.json.gz",
+   "rows": 62,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w05",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 5,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 395399,
+   "file": "data/2025/raw/game_advanced_gt_w05.json.gz",
+   "rows": 214,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w05",
+   "path": "/games/teams",
+   "params": {
+    "week": 5,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 146927,
+   "file": "data/2025/raw/team_box_w05.json.gz",
+   "rows": 53,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w06",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 6,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 395123,
+   "file": "data/2025/raw/game_advanced_gt_w06.json.gz",
+   "rows": 214,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w06",
+   "path": "/games/teams",
+   "params": {
+    "week": 6,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 142500,
+   "file": "data/2025/raw/team_box_w06.json.gz",
+   "rows": 51,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w07",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 7,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 405475,
+   "file": "data/2025/raw/game_advanced_gt_w07.json.gz",
+   "rows": 220,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w07",
+   "path": "/games/teams",
+   "params": {
+    "week": 7,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 155854,
+   "file": "data/2025/raw/team_box_w07.json.gz",
+   "rows": 56,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w08",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 8,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 401521,
+   "file": "data/2025/raw/game_advanced_gt_w08.json.gz",
+   "rows": 218,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w08",
+   "path": "/games/teams",
+   "params": {
+    "week": 8,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 166663,
+   "file": "data/2025/raw/team_box_w08.json.gz",
+   "rows": 60,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w09",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 9,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 413843,
+   "file": "data/2025/raw/game_advanced_gt_w09.json.gz",
+   "rows": 224,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w09",
+   "path": "/games/teams",
+   "params": {
+    "week": 9,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 148429,
+   "file": "data/2025/raw/team_box_w09.json.gz",
+   "rows": 53,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w10",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 10,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 405909,
+   "file": "data/2025/raw/game_advanced_gt_w10.json.gz",
+   "rows": 220,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w10",
+   "path": "/games/teams",
+   "params": {
+    "week": 10,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 146077,
+   "file": "data/2025/raw/team_box_w10.json.gz",
+   "rows": 52,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w11",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 11,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 424449,
+   "file": "data/2025/raw/game_advanced_gt_w11.json.gz",
+   "rows": 230,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w11",
+   "path": "/games/teams",
+   "params": {
+    "week": 11,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 143431,
+   "file": "data/2025/raw/team_box_w11.json.gz",
+   "rows": 52,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w12",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 12,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 443507,
+   "file": "data/2025/raw/game_advanced_gt_w12.json.gz",
+   "rows": 240,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w12",
+   "path": "/games/teams",
+   "params": {
+    "week": 12,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 164442,
+   "file": "data/2025/raw/team_box_w12.json.gz",
+   "rows": 59,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w13",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 13,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 450563,
+   "file": "data/2025/raw/game_advanced_gt_w13.json.gz",
+   "rows": 244,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w13",
+   "path": "/games/teams",
+   "params": {
+    "week": 13,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 178066,
+   "file": "data/2025/raw/team_box_w13.json.gz",
+   "rows": 64,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w14",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 14,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 287463,
+   "file": "data/2025/raw/game_advanced_gt_w14.json.gz",
+   "rows": 156,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w14",
+   "path": "/games/teams",
+   "params": {
+    "week": 14,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 186813,
+   "file": "data/2025/raw/team_box_w14.json.gz",
+   "rows": 67,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_gt_w15",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 15,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 66731,
+   "file": "data/2025/raw/game_advanced_gt_w15.json.gz",
+   "rows": 36,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "team_box_w15",
+   "path": "/games/teams",
+   "params": {
+    "week": 15,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 24784,
+   "file": "data/2025/raw/team_box_w15.json.gz",
+   "rows": 9,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_gt_w01",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 1,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 747885,
+   "file": "data/2026/raw/game_advanced_gt_w01.json.gz",
+   "rows": 408,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_box_w01",
+   "path": "/games/teams",
+   "params": {
+    "week": 1,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 273018,
+   "file": "data/2026/raw/team_box_w01.json.gz",
+   "rows": 99,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_gt_w02",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 2,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 480579,
+   "file": "data/2026/raw/game_advanced_gt_w02.json.gz",
+   "rows": 262,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_box_w02",
+   "path": "/games/teams",
+   "params": {
+    "week": 2,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 237036,
+   "file": "data/2026/raw/team_box_w02.json.gz",
+   "rows": 86,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_gt_w03",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 3,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 471697,
+   "file": "data/2026/raw/game_advanced_gt_w03.json.gz",
+   "rows": 256,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_box_w03",
+   "path": "/games/teams",
+   "params": {
+    "week": 3,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 206462,
+   "file": "data/2026/raw/team_box_w03.json.gz",
+   "rows": 75,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_gt_w04",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 4,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 452463,
+   "file": "data/2026/raw/game_advanced_gt_w04.json.gz",
+   "rows": 246,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_box_w04",
+   "path": "/games/teams",
+   "params": {
+    "week": 4,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 197402,
+   "file": "data/2026/raw/team_box_w04.json.gz",
+   "rows": 71,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_gt_w05",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 5,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 420363,
+   "file": "data/2026/raw/game_advanced_gt_w05.json.gz",
+   "rows": 228,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_box_w05",
+   "path": "/games/teams",
+   "params": {
+    "week": 5,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 161830,
+   "file": "data/2026/raw/team_box_w05.json.gz",
+   "rows": 59,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "returning",
+   "path": "/player/returning",
+   "params": {},
+   "status": 200,
+   "bytes": 43169,
+   "file": "data/2024/raw/returning.json.gz",
+   "rows": 133,
+   "keys": [
+    "conference",
+    "passingUsage",
+    "percentPPA",
+    "percentPassingPPA",
+    "percentReceivingPPA",
+    "percentRushingPPA",
+    "receivingUsage",
+    "rushingUsage",
+    "season",
+    "team",
+    "totalPPA",
+    "totalPassingPPA",
+    "totalReceivingPPA",
+    "totalRushingPPA",
+    "usage"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "talent",
+   "path": "/talent",
+   "params": {},
+   "status": 200,
+   "bytes": 6606,
+   "file": "data/2024/raw/talent.json.gz",
+   "rows": 134,
+   "keys": [
+    "talent",
+    "team",
+    "year"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "returning",
+   "path": "/player/returning",
+   "params": {},
+   "status": 200,
+   "bytes": 43349,
+   "file": "data/2025/raw/returning.json.gz",
+   "rows": 134,
+   "keys": [
+    "conference",
+    "passingUsage",
+    "percentPPA",
+    "percentPassingPPA",
+    "percentReceivingPPA",
+    "percentRushingPPA",
+    "receivingUsage",
+    "rushingUsage",
+    "season",
+    "team",
+    "totalPPA",
+    "totalPassingPPA",
+    "totalReceivingPPA",
+    "totalRushingPPA",
+    "usage"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "talent",
+   "path": "/talent",
+   "params": {},
+   "status": 200,
+   "bytes": 6627,
+   "file": "data/2025/raw/talent.json.gz",
+   "rows": 134,
+   "keys": [
+    "talent",
+    "team",
+    "year"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "returning",
+   "path": "/player/returning",
+   "params": {},
+   "status": 200,
+   "bytes": 43892,
+   "file": "data/2026/raw/returning.json.gz",
+   "rows": 136,
+   "keys": [
+    "conference",
+    "passingUsage",
+    "percentPPA",
+    "percentPassingPPA",
+    "percentReceivingPPA",
+    "percentRushingPPA",
+    "receivingUsage",
+    "rushingUsage",
+    "season",
+    "team",
+    "totalPPA",
+    "totalPassingPPA",
+    "totalReceivingPPA",
+    "totalRushingPPA",
+    "usage"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "talent",
+   "path": "/talent",
+   "params": {},
+   "status": 200,
+   "bytes": 6832,
+   "file": "data/2026/raw/talent.json.gz",
+   "rows": 138,
+   "keys": [
+    "talent",
+    "team",
+    "year"
+   ]
+  },
+  {
+   "year": 2023,
+   "name": "sp_ratings",
+   "path": "/ratings/sp",
+   "params": {},
+   "status": 200,
+   "bytes": 69597,
+   "file": "data/2023/raw/sp_ratings.json.gz",
+   "rows": 134,
+   "keys": [
+    "conference",
+    "defense",
+    "offense",
+    "ranking",
+    "rating",
+    "secondOrderWins",
+    "sos",
+    "specialTeams",
+    "team",
+    "year"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "venues",
+   "path": "/venues",
+   "params": {},
+   "status": 200,
+   "bytes": 221258,
+   "file": "data/2026/raw/venues.json.gz",
+   "rows": 852,
+   "keys": [
+    "capacity",
+    "city",
+    "constructionYear",
+    "countryCode",
+    "dome",
+    "elevation",
+    "grass",
+    "id",
+    "latitude",
+    "longitude",
+    "name",
+    "state",
+    "timezone",
+    "zip"
+   ]
+  }
+ ]
+}
