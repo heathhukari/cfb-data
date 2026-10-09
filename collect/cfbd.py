@@ -135,6 +135,9 @@ def main():
         plan += [(y, f"game_advanced_w{w:02d}", "/stats/game/advanced", {"week": w, "seasonType": "regular"}),
                  (y, f"game_player_stats_w{w:02d}", "/games/players", {"week": w, "seasonType": "regular"}),
                  (y, f"qb_ppa_games_w{w:02d}", "/ppa/players/games", {"week": w, "position": "QB", "seasonType": "regular"})]
+    elif job == "custom":
+        # explicit list of calls: [{"year", "name", "path", "params"}]
+        plan = [(int(c["year"]), c["name"], c["path"], c.get("params", {})) for c in req["calls"]]
     else:
         print("unknown job", job, file=sys.stderr)
         sys.exit(1)

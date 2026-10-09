@@ -1,1 +1,755 @@
-{"job": "history", "years": [2026], "weeks": [1,2,3,4,5], "weeklyOnly": true, "maxCalls": 20, "note": "Edit and push this file to run the collector."}
+{
+"job": "custom",
+"maxCalls": 78,
+"note": "Research pull Oct 9: garbage-time-filtered advanced stats, team box stats (turnover luck), returning production, talent, 2023 SP+, venues.",
+"calls": [
+{
+"year": 2024,
+"name": "game_advanced_gt_w01",
+"path": "/stats/game/advanced",
+"params": {
+"week": 1,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w01",
+"path": "/games/teams",
+"params": {
+"week": 1,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w02",
+"path": "/stats/game/advanced",
+"params": {
+"week": 2,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w02",
+"path": "/games/teams",
+"params": {
+"week": 2,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w03",
+"path": "/stats/game/advanced",
+"params": {
+"week": 3,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w03",
+"path": "/games/teams",
+"params": {
+"week": 3,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w04",
+"path": "/stats/game/advanced",
+"params": {
+"week": 4,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w04",
+"path": "/games/teams",
+"params": {
+"week": 4,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w05",
+"path": "/stats/game/advanced",
+"params": {
+"week": 5,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w05",
+"path": "/games/teams",
+"params": {
+"week": 5,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w06",
+"path": "/stats/game/advanced",
+"params": {
+"week": 6,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w06",
+"path": "/games/teams",
+"params": {
+"week": 6,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w07",
+"path": "/stats/game/advanced",
+"params": {
+"week": 7,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w07",
+"path": "/games/teams",
+"params": {
+"week": 7,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w08",
+"path": "/stats/game/advanced",
+"params": {
+"week": 8,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w08",
+"path": "/games/teams",
+"params": {
+"week": 8,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w09",
+"path": "/stats/game/advanced",
+"params": {
+"week": 9,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w09",
+"path": "/games/teams",
+"params": {
+"week": 9,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w10",
+"path": "/stats/game/advanced",
+"params": {
+"week": 10,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w10",
+"path": "/games/teams",
+"params": {
+"week": 10,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w11",
+"path": "/stats/game/advanced",
+"params": {
+"week": 11,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w11",
+"path": "/games/teams",
+"params": {
+"week": 11,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w12",
+"path": "/stats/game/advanced",
+"params": {
+"week": 12,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w12",
+"path": "/games/teams",
+"params": {
+"week": 12,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w13",
+"path": "/stats/game/advanced",
+"params": {
+"week": 13,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w13",
+"path": "/games/teams",
+"params": {
+"week": 13,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w14",
+"path": "/stats/game/advanced",
+"params": {
+"week": 14,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w14",
+"path": "/games/teams",
+"params": {
+"week": 14,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "game_advanced_gt_w15",
+"path": "/stats/game/advanced",
+"params": {
+"week": 15,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2024,
+"name": "team_box_w15",
+"path": "/games/teams",
+"params": {
+"week": 15,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w01",
+"path": "/stats/game/advanced",
+"params": {
+"week": 1,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w01",
+"path": "/games/teams",
+"params": {
+"week": 1,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w02",
+"path": "/stats/game/advanced",
+"params": {
+"week": 2,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w02",
+"path": "/games/teams",
+"params": {
+"week": 2,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w03",
+"path": "/stats/game/advanced",
+"params": {
+"week": 3,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w03",
+"path": "/games/teams",
+"params": {
+"week": 3,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w04",
+"path": "/stats/game/advanced",
+"params": {
+"week": 4,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w04",
+"path": "/games/teams",
+"params": {
+"week": 4,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w05",
+"path": "/stats/game/advanced",
+"params": {
+"week": 5,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w05",
+"path": "/games/teams",
+"params": {
+"week": 5,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w06",
+"path": "/stats/game/advanced",
+"params": {
+"week": 6,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w06",
+"path": "/games/teams",
+"params": {
+"week": 6,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w07",
+"path": "/stats/game/advanced",
+"params": {
+"week": 7,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w07",
+"path": "/games/teams",
+"params": {
+"week": 7,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w08",
+"path": "/stats/game/advanced",
+"params": {
+"week": 8,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w08",
+"path": "/games/teams",
+"params": {
+"week": 8,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w09",
+"path": "/stats/game/advanced",
+"params": {
+"week": 9,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w09",
+"path": "/games/teams",
+"params": {
+"week": 9,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w10",
+"path": "/stats/game/advanced",
+"params": {
+"week": 10,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w10",
+"path": "/games/teams",
+"params": {
+"week": 10,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w11",
+"path": "/stats/game/advanced",
+"params": {
+"week": 11,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w11",
+"path": "/games/teams",
+"params": {
+"week": 11,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w12",
+"path": "/stats/game/advanced",
+"params": {
+"week": 12,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w12",
+"path": "/games/teams",
+"params": {
+"week": 12,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w13",
+"path": "/stats/game/advanced",
+"params": {
+"week": 13,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w13",
+"path": "/games/teams",
+"params": {
+"week": 13,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w14",
+"path": "/stats/game/advanced",
+"params": {
+"week": 14,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w14",
+"path": "/games/teams",
+"params": {
+"week": 14,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2025,
+"name": "game_advanced_gt_w15",
+"path": "/stats/game/advanced",
+"params": {
+"week": 15,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2025,
+"name": "team_box_w15",
+"path": "/games/teams",
+"params": {
+"week": 15,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2026,
+"name": "game_advanced_gt_w01",
+"path": "/stats/game/advanced",
+"params": {
+"week": 1,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2026,
+"name": "team_box_w01",
+"path": "/games/teams",
+"params": {
+"week": 1,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2026,
+"name": "game_advanced_gt_w02",
+"path": "/stats/game/advanced",
+"params": {
+"week": 2,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2026,
+"name": "team_box_w02",
+"path": "/games/teams",
+"params": {
+"week": 2,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2026,
+"name": "game_advanced_gt_w03",
+"path": "/stats/game/advanced",
+"params": {
+"week": 3,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2026,
+"name": "team_box_w03",
+"path": "/games/teams",
+"params": {
+"week": 3,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2026,
+"name": "game_advanced_gt_w04",
+"path": "/stats/game/advanced",
+"params": {
+"week": 4,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2026,
+"name": "team_box_w04",
+"path": "/games/teams",
+"params": {
+"week": 4,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2026,
+"name": "game_advanced_gt_w05",
+"path": "/stats/game/advanced",
+"params": {
+"week": 5,
+"seasonType": "regular",
+"excludeGarbageTime": "true"
+}
+},
+{
+"year": 2026,
+"name": "team_box_w05",
+"path": "/games/teams",
+"params": {
+"week": 5,
+"seasonType": "regular",
+"classification": "fbs"
+}
+},
+{
+"year": 2024,
+"name": "returning",
+"path": "/player/returning",
+"params": {}
+},
+{
+"year": 2024,
+"name": "talent",
+"path": "/talent",
+"params": {}
+},
+{
+"year": 2025,
+"name": "returning",
+"path": "/player/returning",
+"params": {}
+},
+{
+"year": 2025,
+"name": "talent",
+"path": "/talent",
+"params": {}
+},
+{
+"year": 2026,
+"name": "returning",
+"path": "/player/returning",
+"params": {}
+},
+{
+"year": 2026,
+"name": "talent",
+"path": "/talent",
+"params": {}
+},
+{
+"year": 2023,
+"name": "sp_ratings",
+"path": "/ratings/sp",
+"params": {}
+},
+{
+"year": 2026,
+"name": "venues",
+"path": "/venues",
+"params": {}
+}
+]
+}
