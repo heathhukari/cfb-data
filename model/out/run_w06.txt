@@ -1,33 +1,33 @@
-/home/claude/cfb-data/model/out/playermodel_2026_w06.json 243848 bytes
-1 Alabama pm 24.2 (claude 25.6 unit 22.0 qb 0.0 inj 0.0 ) claudeRank 1
-2 Ohio State pm 22.7 (claude 26.4 unit 17.2 qb 0.0 inj 0.0 ) claudeRank 2
-3 Texas pm 17.3 (claude 22.2 unit 9.9 qb 0.0 inj 0.0 ) claudeRank 3
-4 Notre Dame pm 22.1 (claude 25.9 unit 16.3 qb 0.0 inj 0.0 ) claudeRank 6
-5 Georgia pm 21.8 (claude 27.1 unit 13.7 qb 0.0 inj 0.0 ) claudeRank 5
-6 Miami (FL) pm 19.8 (claude 25.6 unit 14.0 qb 0.0 inj -1.2 ) claudeRank 4
-7 Indiana pm 21.0 (claude 24.6 unit 15.6 qb 0.0 inj 0.0 ) claudeRank 7
-8 LSU pm 19.3 (claude 21.1 unit 16.6 qb 0.0 inj 0.0 ) claudeRank 9
-9 Oregon pm 15.8 (claude 19.2 unit 6.5 qb 1.7 inj 0.0 ) claudeRank 8
-10 Missouri pm 13.9 (claude 15.6 unit 11.4 qb 0.0 inj 0.0 ) claudeRank 12
-11 Texas Tech pm 13.1 (claude 18.6 unit 7.9 qb 0.0 inj -1.2 ) claudeRank 10
-12 Utah pm 15.7 (claude 18.7 unit 11.2 qb 0.0 inj 0.0 ) claudeRank 11
-13 Nebraska pm 15.7 (claude 17.2 unit 13.4 qb 0.0 inj 0.0 ) claudeRank 14
-14 Florida pm 11.5 (claude 13.6 unit 8.2 qb 0.0 inj 0.0 ) claudeRank 15
-15 BYU pm 10.8 (claude 15.9 unit 9.2 qb 0.0 inj -2.4 ) claudeRank 13
-16 Mississippi State pm 10.9 (claude 11.3 unit 10.2 qb 0.0 inj 0.0 ) claudeRank 17
-17 Tennessee pm 13.4 (claude 16.5 unit 8.4 qb 0.2 inj 0.0 ) claudeRank 16
-18 UCLA pm 12.6 (claude 12.7 unit 12.6 qb 0.0 inj 0.0 ) claudeRank 20
-19 Wisconsin pm 10.8 (claude 10.0 unit 12.0 qb 0.0 inj 0.0 ) claudeRank 23
-20 Northwestern pm 9.7 (claude 12.4 unit 9.8 qb 0.0 inj -1.7 ) claudeRank 19
-21 Ole Miss pm 6.1 (claude 10.2 unit 4.2 qb 0.0 inj -1.7 ) claudeRank 18
-22 Boise State pm 11.5 (claude 11.3 unit 11.9 qb 0.0 inj 0.0 ) claudeRank 24
-23 Pittsburgh pm 10.7 (claude 13.0 unit 7.3 qb 0.0 inj 0.0 ) claudeRank 21
-24 Wake Forest pm 9.4 (claude 9.3 unit 9.6 qb 0.0 inj 0.0 ) claudeRank 25
-25 Kentucky pm 8.8 (claude 9.1 unit 8.3 qb 0.0 inj 0.0 ) claudeRank 27
+/home/claude/cfb-data/model/out/playermodel_2026_w06.json 251169 bytes
+1 Alabama pm 26.4 (claude 25.6 data 27.5 qb 0.0 inj 0.0 ) claudeRank 1
+2 Ohio State pm 25.7 (claude 26.4 data 24.7 qb 0.0 inj 0.0 ) claudeRank 2
+3 Texas pm 21.2 (claude 22.2 data 19.9 qb 0.0 inj 0.0 ) claudeRank 3
+4 Notre Dame pm 26.3 (claude 25.9 data 26.8 qb 0.0 inj 0.0 ) claudeRank 6
+5 Georgia pm 26.2 (claude 27.1 data 24.8 qb 0.0 inj 0.0 ) claudeRank 5
+6 Miami (FL) pm 24.1 (claude 25.6 data 24.7 qb 0.0 inj -1.2 ) claudeRank 4
+7 Indiana pm 24.5 (claude 24.6 data 24.3 qb 0.0 inj 0.0 ) claudeRank 7
+8 Oregon pm 21.6 (claude 19.2 data 21.0 qb 1.7 inj 0.0 ) claudeRank 8
+9 LSU pm 20.3 (claude 21.1 data 19.0 qb 0.0 inj 0.0 ) claudeRank 9
+10 Texas Tech pm 17.7 (claude 18.6 data 19.4 qb 0.0 inj -1.2 ) claudeRank 10
+11 Utah pm 19.3 (claude 18.7 data 20.2 qb 0.0 inj 0.0 ) claudeRank 11
+12 Missouri pm 15.2 (claude 15.6 data 14.6 qb 0.0 inj 0.0 ) claudeRank 12
+13 Florida pm 13.0 (claude 13.6 data 12.1 qb 0.0 inj 0.0 ) claudeRank 15
+14 Nebraska pm 16.2 (claude 17.2 data 14.5 qb 0.0 inj 0.0 ) claudeRank 14
+15 Tennessee pm 15.5 (claude 16.5 data 13.4 qb 0.2 inj 0.0 ) claudeRank 16
+16 BYU pm 12.4 (claude 15.9 data 13.1 qb 0.0 inj -2.4 ) claudeRank 13
+17 Mississippi State pm 12.0 (claude 11.3 data 12.9 qb 0.0 inj 0.0 ) claudeRank 17
+18 Ole Miss pm 10.0 (claude 10.2 data 14.0 qb 0.0 inj -1.7 ) claudeRank 18
+19 Northwestern pm 10.7 (claude 12.4 data 12.5 qb 0.0 inj -1.7 ) claudeRank 19
+20 UCLA pm 11.2 (claude 12.7 data 9.1 qb 0.0 inj 0.0 ) claudeRank 20
+21 Wisconsin pm 10.1 (claude 10.0 data 10.4 qb 0.0 inj 0.0 ) claudeRank 23
+22 Houston pm 12.9 (claude 13.6 data 11.9 qb 0.0 inj 0.0 ) claudeRank 22
+23 Pittsburgh pm 11.3 (claude 13.0 data 8.8 qb 0.0 inj 0.0 ) claudeRank 21
+24 Boise State pm 10.9 (claude 11.3 data 10.4 qb 0.0 inj 0.0 ) claudeRank 24
+25 USC pm 12.5 (claude 12.7 data 12.2 qb 0.0 inj 0.0 ) claudeRank 26
 games 21 teams 46
-Ball State @ Northwestern PM 28.8 Claude 34.1 Vegas -36.5 ['Mismatch: Northwestern run game #15 vs Ball State run defense #135']
-Stanford @ Notre Dame PM 34.3 Claude 39.3 Vegas -37.5 ['Mismatch: Notre Dame pass game #5 vs Stanford pass defense #134']
-Kansas @ Utah PM 11.2 Claude 15.8 Vegas None ['Strength on strength: Kansas run game #14 vs Utah run defense #20']
 Iowa State @ BYU PM 9.8 Claude 14.2 Vegas -10.5 []
-Georgia @ Alabama PM 4.9 Claude 1.0 Vegas -1.5 ['Strength on strength: Alabama run game #8 vs Georgia run defense #5', 'Strength on strength: Georgia pass game #10 vs Alabama pass defense #11']
-UCLA @ Oregon PM 5.7 Claude 9.0 Vegas -11.5 []
+UCLA @ Oregon PM 12.9 Claude 9.0 Vegas -11.5 []
+Kansas @ Utah PM 18.2 Claude 15.8 Vegas None ['Strength on strength: Kansas run game #14 vs Utah run defense #20']
+UCF @ Oklahoma State PM 1.4 Claude 3.3 Vegas -9.5 []
+Ball State @ Northwestern PM 32.4 Claude 34.1 Vegas -36.5 ['Mismatch: Northwestern run game #15 vs Ball State run defense #135']
+Georgia @ Alabama PM 2.7 Claude 1.0 Vegas -1.5 ['Strength on strength: Alabama run game #8 vs Georgia run defense #5', 'Strength on strength: Georgia pass game #10 vs Alabama pass defense #11']

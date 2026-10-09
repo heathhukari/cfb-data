@@ -1,0 +1,69 @@
+Research backtest: fit 2024 (713 FBS games, weeks 2+), test 2025 (714 games)
+Closing line MAE  train 12.16  test 11.83   |  opening line test 11.90
+
+A-C. Margin models without a preseason prior (ridge, 2025 test MAE; lower is better)
+  in-season results only (how Unit Power started)             13.32
+  results, turnover luck removed (5 pts/turnover)             13.37
+  results, turnover luck half-removed (2.5 pts)               13.29
+  results, luck + return/defensive TDs removed                13.54
+  + efficiency EPA/play (PM v1 unit power)                    13.30
+  + efficiency EPA, garbage time removed                      13.27
+  + success rate & explosiveness, garbage time removed        13.28
+
+  Adding a preseason prior worth N games (weight N/(N+games played), never quite zero). Train = 2024 fit, test = 2025:
+N                                         1      2      3      4      6      8
+results       prior                                                           
+rat           + returning production  12.23  12.22  12.24  12.26  12.32  12.36
+              SP+ & talent            12.20  12.17  12.20  12.23  12.30  12.35
+rat_luck      + returning production  12.25  12.23  12.25  12.28  12.34  12.39
+              SP+ & talent            12.21  12.18  12.21  12.25  12.32  12.37
+rat_luck_half + returning production  12.20  12.19  12.21  12.24  12.30  12.35
+              SP+ & talent            12.16  12.14  12.17  12.21  12.28  12.34
+  (2025 test MAE by N; rows = how turnover luck is handled and which prior inputs are used)
+  Decisions, each made on whether it helped in BOTH seasons (2024 in-sample and 2025 out-of-sample):
+   - half-strength turnover-luck removal: improves 2024 by +0.081 and 2025 by +0.037 -> KEEP
+   - full-strength (5 pts/turnover): 2024 +0.098, 2025 -0.010 -> too strong out of sample
+   - returning production on top of SP+ & talent: 2024 +0.018, 2025 -0.049 -> DROP (positive = helped)
+   - prior weight N = 2 games (N = 1 and 2 are close in 2024; the literature favors a few games; 2 is the smaller, safer choice)
+   - explosiveness on top of success rate: 2025 test 12.137 with vs without (below) -> DROP (adds nothing; garbage-time-filtered success rate carries the efficiency signal)
+  FINAL 'Data Rating': 2025 test MAE 12.14 (closing line 11.83; in-season-only start 13.32)
+  Coefficients (2024 fit): const -0.75, hfa +3.93, rat_luck_half +1.24, o_sr_gt +5.57, p_sp +0.78, p_tal +4.58
+
+  By week (2025 test MAE): Data Rating vs in-season results only vs closing line
+  weeks  2- 4 (n=147): Data Rating  12.77   in-season only  16.80   Vegas  12.09
+  weeks  5- 8 (n=216): Data Rating  11.96   in-season only  12.81   Vegas  11.43
+  weeks  9-16 (n=351): Data Rating  11.98   in-season only  12.18   Vegas  11.97
+
+D. Situational features vs the result against the closing line (margin - market); corr 2024 / 2025
+  rest     corr +0.018 / -0.044   mean |x| 1.99
+  bye      corr +0.013 / -0.054   mean |x| 0.24
+  dist     corr +0.071 / -0.020   mean |x| 6.41
+  tz_east  corr +0.014 / -0.058   mean |x| 0.32
+  tz_abs   corr -0.005 / -0.009   mean |x| 0.61
+  elev     corr +0.063 / +0.003   mean |x| 0.14
+  all situational together: test MAE vs line 11.918 vs 11.831 (line alone); coefs rest +0.12, bye -0.48, dist +1.03, tz_east +0.52, tz_abs -1.40, elev +2.15
+  Home field fitted by the results model: 2024 3.30, 2025 3.50 pts (end of season)
+  Market-implied: average home result vs closing line 2024 +0.90, 2025 +0.80 (0 = market prices HFA right)
+
+E. The CLV test: does the model's disagreement with the OPENING line predict where the line closes?
+  2024 (in-sample): corr(model - open, close - open) +0.474, slope +0.350; gaps of 4+ pts (n=266): line moved toward the model 75% of moves; result vs CLOSE in the model's direction 46%
+  2025 (test): corr(model - open, close - open) +0.360, slope +0.214; gaps of 4+ pts (n=236): line moved toward the model 66% of moves; result vs CLOSE in the model's direction 51%
+
+  Blend test: prediction = w x model + (1 - w) x closing line (2025)
+    w = 0.0: MAE 11.831
+    w = 0.1: MAE 11.812
+    w = 0.2: MAE 11.801
+    w = 0.3: MAE 11.799
+    w = 0.5: MAE 11.833
+
+F. Totals: does a pace x efficiency scoring environment predict the result against the closing over/under?
+  closing O/U MAE 2025: 12.36
+  sr_env      corr with (total - O/U) 2024 -0.102 / 2025 -0.062
+  xpl_env     corr with (total - O/U) 2024 -0.042 / 2025 -0.037
+  epa_env     corr with (total - O/U) 2024 -0.113 / 2025 -0.043
+  pace        corr with (total - O/U) 2024 +0.040 / 2025 +0.013
+  pace_x_epa  corr with (total - O/U) 2024 +0.004 / 2025 -0.061
+  all together: 2025 MAE vs O/U 12.402 vs 12.359 (O/U alone)
+  overs hit: 2024 51.1%, 2025 49.3% (pushes counted as unders)
+
+Production coefficients (2024 + 2025 refit): const +0.11, hfa +3.09, rat_luck_half +1.25, o_sr_gt +10.23, p_sp +0.87, p_tal +4.88

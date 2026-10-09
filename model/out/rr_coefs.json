@@ -1,0 +1,22 @@
+{
+ "N": 2,
+ "features": [
+  "hfa",
+  "rat_luck_half",
+  "o_sr_gt",
+  "p_sp",
+  "p_tal"
+ ],
+ "coef": {
+  "const": 0.1106,
+  "hfa": 3.0917,
+  "rat_luck_half": 1.2542,
+  "o_sr_gt": 10.2299,
+  "p_sp": 0.8695,
+  "p_tal": 4.8819
+ },
+ "lucky_pts_per_turnover": 2.5,
+ "fit": "2024 + 2025 FBS games, weeks 2+",
+ "test2025_mae": 12.135,
+ "vegas2025_mae": 11.831
+}

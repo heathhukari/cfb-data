@@ -1,8 +1,11 @@
 """Player-impact model ("PM") for the current week.
 
-PM Power = 0.6 x Claude Power + 0.4 x Unit Power + QB adjustment + injury adjustments.
- - Unit Power: opponent-adjusted EPA per play (offense minus defense) x 70 plays, centred on Claude Power's FBS mean.
-   Backtest (fit 2024, test 2025): a results-only rating missed by 12.81 pts/game; adding this efficiency rating cut it to 12.75.
+Player Model v2 (Oct 9, 2026, after the research backtest in model/research*.py):
+PM Power = 0.6 x Claude Power + 0.4 x Data Rating + QB adjustment + injury adjustments.
+ - Data Rating (model/data_rating.py): last season's final SP+ and roster talent as a prior worth 2 games, fading as games are
+   played, plus this season's results (turnover luck half-removed) and opponent-adjusted success rate (garbage time removed).
+   Centred on Claude Power's FBS mean. Backtest (fit 2024, test 2025, weeks 2+): 12.14 pts average miss vs 13.32 for in-season
+   results alone and 11.83 for the closing line. v1 used opponent-adjusted EPA/play alone (no prior), which was weakest early.
  - QB adjustment: only when the starter changes; 0.5 x (current starter's pass EPA/dropback - team season QB EPA/dropback) x dropbacks/game.
    Halved on purpose: in QB-change games the closing line over-reacted to the new QB's form in 2024 and 2025.
  - Injury adjustments (input injuries.json): starting QB out -> backup (or replacement level) instead; skill player out -> -0.5 x his
@@ -15,9 +18,10 @@ import json, os, sys, gzip
 import numpy as np, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dataset import team_games, ridge_offdef, load
+from data_rating import team_ratings
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-W_CLAUDE, W_UNIT, QB_SHRINK = 0.6, 0.4, 0.5
+W_CLAUDE, W_DATA, QB_SHRINK = 0.6, 0.4, 0.5
 HFA, SD, FCS = 2.5, 14.8, -24.0  # same constants as Claude's game projections
 r1 = lambda x: None if x is None or x != x else round(float(x), 1)
 r2 = lambda x: None if x is None or x != x else round(float(x), 2)
@@ -47,9 +51,10 @@ def main(year, week, inj_path=None):
     TG["rush_plays"] = TG.rush_rate * TG.plays; TG["pass_plays"] = (1 - TG.rush_rate) * TG.plays
     own = TG.groupby("team")[["rush_plays", "pass_plays", "plays", "rush_rate"]].mean()
     faced = TG.groupby("opp")[["rush_plays", "pass_plays"]].mean()
-    up_raw = {t: (off[t] - dfn[t]) * 70 for t in tl}
-    cp_mean = np.mean([CP[cf2dash[t]] for t in tl if cf2dash[t] in CP]); up_mean = np.mean(list(up_raw.values()))
-    UP = {t: up_raw[t] - up_mean + cp_mean for t in tl}
+    DRr, DRmeta = team_ratings(year, week)
+    up_raw = {t: DRr[t]["rating"] if t in DRr else np.nan for t in tl}
+    cp_mean = np.mean([CP[cf2dash[t]] for t in tl if cf2dash[t] in CP]); up_mean = np.nanmean(list(up_raw.values()))
+    UP = {t: (up_raw[t] - up_mean + cp_mean) if up_raw[t] == up_raw[t] else cp_mean for t in tl}
     units = {}
     for t in tl:
         rp, pp = own.rush_plays.get(t, 35), own.pass_plays.get(t, 33)
@@ -150,9 +155,9 @@ def main(year, week, inj_path=None):
         dn = cf2dash[t]; cp = CP.get(dn)
         if cp is None: continue
         ia = sum(x["pts"] or 0 for x in injadj[t]); qa = qbinfo[t]["adj"]
-        pm = W_CLAUDE * cp + W_UNIT * UP[t] + qa + ia
-        rows.append({"team": dn, "pm": pm, "claudePower": cp, "unitPower": UP[t], "qbAdj": qa, "injAdj": ia})
-    pmr = rank_of({r["team"]: r["pm"] for r in rows}); cpr = rank_of({r["team"]: r["claudePower"] for r in rows}); upr = rank_of({r["team"]: r["unitPower"] for r in rows})
+        pm = W_CLAUDE * cp + W_DATA * UP[t] + qa + ia
+        rows.append({"team": dn, "pm": pm, "claudePower": cp, "dataRating": UP[t], "qbAdj": qa, "injAdj": ia})
+    pmr = rank_of({r["team"]: r["pm"] for r in rows}); cpr = rank_of({r["team"]: r["claudePower"] for r in rows}); upr = rank_of({r["team"]: r["dataRating"] for r in rows})
     # ---- PM Top 25: Claude's Top 25 score with Claude Power swapped for PM power inside the 70% power share ----
     top = []
     for r in rows:
@@ -166,11 +171,12 @@ def main(year, week, inj_path=None):
         return {"units": {k: (r2(v) if k in ("rushO", "passO", "rushD", "passD") else r3(v)) for k, v in u.items()},
                 "unitRanks": {k: RK[k][t] for k in u},
                 "qb": {k: (r3(v) if isinstance(v, float) else v) for k, v in qi.items() if k != "backups"},
-                "players": players[t], "injuries": injadj[t]}
+                "players": players[t], "injuries": injadj[t],
+                "data": {k: (r1(v) if isinstance(v, float) else v) for k, v in (DRr.get(t) or {}).items()}}
     out_top = []
     for i, x in enumerate(top[:25]):
         out_top.append({"rank": i + 1, "team": x["team"], "score": r2(x["score"]), "pm": r1(x["pm"]), "pmRk": pmr[x["team"]], "claudePower": r1(x["claudePower"]), "claudePowerRk": cpr[x["team"]],
-                        "unitPower": r1(x["unitPower"]), "unitPowerRk": upr[x["team"]], "qbAdj": r1(x["qbAdj"]), "injAdj": r1(x["injAdj"]), "claudeRank": x["claudeRank"], "apRank": x["apRank"]})
+                        "dataRating": r1(x["dataRating"]), "dataRatingRk": upr[x["team"]], "qbAdj": r1(x["qbAdj"]), "injAdj": r1(x["injAdj"]), "claudeRank": x["claudeRank"], "apRank": x["apRank"]})
     # ---- this week's games ----
     PMd = {r["team"]: r["pm"] for r in rows}
     focus = set(x["team"] for x in out_top) | {k for k, v in T25.items() if v.get("rank", 99) <= 25 or v.get("apRank")}
@@ -233,14 +239,10 @@ def main(year, week, inj_path=None):
     for dn in set(x["team"] for x in out_top) | {g["home"] for g in games} | {g["away"] for g in games}:
         if dn in d2c: cards[dn] = team_card(dn)
     doc = {"season": year, "week": week, "sortKey": year * 100 + week, "label": f"Week {week}", "throughWeek": week - 1,
-           "weights": {"claudePower": W_CLAUDE, "unitPower": W_UNIT, "qbShrink": QB_SHRINK, "matchups": 0},
+           "version": 2, "weights": {"claudePower": W_CLAUDE, "dataRating": W_DATA, "qbShrink": QB_SHRINK, "matchups": 0, "priorGames": DRmeta["N"]},
            "replacementQbEpa": r3(repl), "injurySource": inj.get("source"), "top25": out_top, "games": games, "teams": cards, "outlook": outlook,
            "outlookMethod": f"Win % for every remaining regular-season game = normal CDF((power gap + {HFA} home field) / {SD}), the same math as the main tracker. Player Model uses PM power; Claude Power uses Claude Power alone (the main tracker's Road ahead uses blended power, so its numbers can differ slightly). FCS opponents count as {FCS}. Projected record = current record + the sum of remaining win chances.",
-           "backtest": {"note": "Fit on 2024 (weeks 4+), tested on 2025 (weeks 4+), every team's numbers rebuilt from games before each matchup.",
-                        "margins": [["Vegas closing line", 11.79], ["Results-only ratings", 12.81], ["Efficiency (unit EPA) only", 13.01], ["Results + efficiency blend", 12.75], ["+ matchup & QB features", 12.75]],
-                        "matchupCorr": [["Run-heavy offense vs front-seven havoc", -0.02, 0.01], ["Run-heavy offense vs run-stuffing defense", 0.08, 0.01], ["Weak protection vs pass rush", -0.07, -0.04], ["Pass-heavy offense vs DB havoc", -0.03, -0.03], ["QB recent form after a QB change", -0.20, -0.10]],
-                        "totals": "No matchup feature predicted total points vs the closing over/under either (2025 test).",
-                        "verdict": "Matchup interactions carry zero weight; QB changes and injuries are the player effects that move the rating."},
+           "backtest": json.load(open(os.path.join(ROOT, "model", "out", "research_summary.json"))),
            "method": __doc__.strip()}
     os.makedirs(os.path.join(ROOT, "model", "out"), exist_ok=True)
     p = os.path.join(ROOT, "model", "out", f"playermodel_{year}_w{week:02d}.json")
@@ -252,6 +254,6 @@ if __name__ == "__main__":
     y, w = int(sys.argv[1]), int(sys.argv[2])
     doc, p = main(y, w, sys.argv[3] if len(sys.argv) > 3 else None)
     print(p, os.path.getsize(p), "bytes")
-    for x in doc["top25"]: print(x["rank"], x["team"], "pm", x["pm"], "(claude", x["claudePower"], "unit", x["unitPower"], "qb", x["qbAdj"], "inj", x["injAdj"], ") claudeRank", x["claudeRank"])
+    for x in doc["top25"]: print(x["rank"], x["team"], "pm", x["pm"], "(claude", x["claudePower"], "data", x["dataRating"], "qb", x["qbAdj"], "inj", x["injAdj"], ") claudeRank", x["claudeRank"])
     print("games", len(doc["games"]), "teams", len(doc["teams"]))
     for g in doc["games"][:6]: print(g["away"], "@", g["home"], "PM", g["pmHomeMargin"], "Claude", g["claudeHomeMargin"], "Vegas", g["vegasHomeSpread"], g["notes"][:2])

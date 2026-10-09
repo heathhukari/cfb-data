@@ -1,0 +1,130 @@
+{
+ "note": "Research backtest (Oct 9, 2026): every idea fit on 2024 and tested on 2025, FBS vs FBS games from week 2 on, each team's numbers rebuilt only from games played before each matchup. Lower average miss (points per game) is better.",
+ "margins": [
+  [
+   "Vegas closing line",
+   11.83
+  ],
+  [
+   "Player Model v2 Data Rating",
+   12.14
+  ],
+  [
+   "In-season results only (no prior)",
+   13.32
+  ],
+  [
+   "+ EPA efficiency (v1 unit power, no prior)",
+   13.3
+  ]
+ ],
+ "byWeek": [
+  [
+   "Weeks 2–4",
+   12.77,
+   16.8,
+   12.09
+  ],
+  [
+   "Weeks 5–8",
+   11.96,
+   12.81,
+   11.43
+  ],
+  [
+   "Weeks 9+",
+   11.98,
+   12.18,
+   11.97
+  ]
+ ],
+ "decisions": [
+  [
+   "Preseason prior: last season's SP+ + roster talent, worth ~2 games",
+   "Kept",
+   "Biggest gain by far: 13.32 → 12.17 overall, 16.8 → 12.8 in weeks 2–4"
+  ],
+  [
+   "Turnover luck removed at half strength (2.5 pts per turnover above/below expected)",
+   "Kept",
+   "Helped both seasons (−0.08 in 2024, −0.04 in 2025)"
+  ],
+  [
+   "Turnover luck at full strength (5 pts per turnover)",
+   "Dropped",
+   "Helped 2024, slightly hurt 2025: too strong"
+  ],
+  [
+   "Success rate with garbage time removed",
+   "Kept",
+   "Carries the efficiency signal; as good as EPA/play"
+  ],
+  [
+   "Explosiveness on top of success rate",
+   "Dropped",
+   "Added nothing (12.137 vs 12.135)"
+  ],
+  [
+   "Returning production on top of SP+ and talent",
+   "Dropped",
+   "+0.02 in 2024, −0.05 in 2025"
+  ],
+  [
+   "Return & defensive TDs removed as luck",
+   "Dropped",
+   "Made results worse"
+  ],
+  [
+   "Rest days, byes, travel distance, time zones, altitude",
+   "Dropped",
+   "No consistent signal against the closing line (all |corr| ≤ 0.07, signs flip between years)"
+  ],
+  [
+   "Matchup interactions (run game vs front seven, protection vs pass rush, ...)",
+   "Context only",
+   "No signal against the closing line in either year (earlier test)"
+  ]
+ ],
+ "matchupCorr": [
+  [
+   "Run-heavy offense vs front-seven havoc",
+   -0.02,
+   0.01
+  ],
+  [
+   "Run-heavy offense vs run-stuffing defense",
+   0.08,
+   0.01
+  ],
+  [
+   "Weak protection vs pass rush",
+   -0.07,
+   -0.04
+  ],
+  [
+   "Pass-heavy offense vs DB havoc",
+   -0.03,
+   -0.03
+  ],
+  [
+   "QB recent form after a QB change",
+   -0.2,
+   -0.1
+  ]
+ ],
+ "market": [
+  "Timing is where a model earns its keep: when the Data Rating disagreed with the OPENING line by 4+ points, the line moved toward the model 66% of the time in 2025 (74% in 2024), but against the CLOSING line the model's side won only 51%. Lines absorb what the model knows by kickoff, so beating the close (CLV) is the honest scorecard.",
+  "Home teams beat the closing spread by about 0.85 points per game in both 2024 and 2025: a hint the market slightly underrates home field. Suggestive, not proven (about 2 standard errors).",
+  "Mixing 20–30% model with 70–80% closing line lowered the 2025 miss slightly (11.83 → 11.80): the model holds a little information the close doesn't."
+ ],
+ "totals": "Totals: a pace × efficiency scoring environment did not beat the closing over/under. One pattern repeated in both years: when both offenses rate as efficient, games went slightly UNDER the total (corr −0.10 in 2024, −0.06 in 2025). Overs hit 51% in 2024 and 49% in 2025.",
+ "verdict": "What predicts college football: a good preseason prior, this season's results with turnover luck partly removed, and success rate. Player matchups, travel and rest add nothing measurable once the line is known. The Player Model now uses that Data Rating in place of v1's EPA-only unit power.",
+ "sources": [
+  "Connelly (SP+, returning production, five factors)",
+  "Fair & Oster 2002 (college football market efficiency)",
+  "Benz, Bliss & Lopez 2024 (home advantage, arXiv 2401.16392)",
+  "KenPom (preseason weight)",
+  "CollegeFootballData (definitions, ridge adjustment)",
+  "Action Network & Football Study Hall (turnover luck, wind, byes)"
+ ]
+}

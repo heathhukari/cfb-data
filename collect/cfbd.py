@@ -90,7 +90,7 @@ def main():
         sys.exit(1)
     if os.environ.get("CFBD_JOB") == "weekly":
         # scheduled run (Sunday): current season, last completed week (detected below)
-        req = {"job": "weekly", "year": "auto", "week": "auto", "maxCalls": 15, "trigger": "schedule"}
+        req = {"job": "weekly", "year": "auto", "week": "auto", "maxCalls": 18, "trigger": "schedule"}
     else:
         req = json.load(open(os.path.join(ROOT, "collect", "run.json")))
     job = req.get("job", "probe")
@@ -134,7 +134,15 @@ def main():
         plan = [(y, n, p, q) for n, p, q in PROBE if n in (() if pre else ("games",)) + ("player_season_stats", "player_ppa_season", "player_usage", "team_advanced_season", "lines", "game_havoc")]
         plan += [(y, f"game_advanced_w{w:02d}", "/stats/game/advanced", {"week": w, "seasonType": "regular"}),
                  (y, f"game_player_stats_w{w:02d}", "/games/players", {"week": w, "seasonType": "regular"}),
-                 (y, f"qb_ppa_games_w{w:02d}", "/ppa/players/games", {"week": w, "position": "QB", "seasonType": "regular"})]
+                 (y, f"qb_ppa_games_w{w:02d}", "/ppa/players/games", {"week": w, "position": "QB", "seasonType": "regular"}),
+                 # Data Rating inputs (Player Model v2): garbage-time-filtered success rate and team box stats for turnover luck
+                 (y, f"game_advanced_gt_w{w:02d}", "/stats/game/advanced", {"week": w, "seasonType": "regular", "excludeGarbageTime": "true"}),
+                 (y, f"team_box_w{w:02d}", "/games/teams", {"week": w, "seasonType": "regular", "classification": "fbs"})]
+        # preseason prior inputs, once per season: roster talent and last season's final SP+
+        if not os.path.exists(os.path.join(ROOT, "data", str(y), "raw", "talent.json.gz")):
+            plan.append((y, "talent", "/talent", {}))
+        if not os.path.exists(os.path.join(ROOT, "data", str(y - 1), "raw", "sp_ratings.json.gz")):
+            plan.append((y - 1, "sp_ratings", "/ratings/sp", {}))
     elif job == "custom":
         # explicit list of calls: [{"year", "name", "path", "params"}]
         plan = [(int(c["year"]), c["name"], c["path"], c.get("params", {})) for c in req["calls"]]

@@ -5,7 +5,7 @@ The Player Model ("PM") is a shadow model. It never changes Claude's picks; it i
 ## Sunday (automatic, GitHub Actions)
 `.github/workflows/cfbd.yml` runs every Sunday at 14:23 UTC. It finds the last completed week from CFBD's schedule and pulls
 season player stats, usage, PPA, team advanced stats, havoc, lines, games (with finals) and that week's per-game data:
-about 10 calls of the free tier's 1,000 a month. Data lands in `data/<year>/raw/` and is committed by the workflow.
+about 12 calls of the free tier's 1,000 a month (plus garbage-time-filtered advanced stats and team box stats for the Data Rating, and once a season the roster talent and last season's final SP+ for its prior). Data lands in `data/<year>/raw/` and is committed by the workflow.
 Manual run: Actions → CFBD collect → Run workflow → tick "weekly".
 
 ## Monday (the "CFB game insights + last-week recaps" scheduled task, step 11)
@@ -23,4 +23,7 @@ Then: dashboard doc `playermodel/<year>-w<week-1>` gets its graded `games`; the 
 model output plus `record` (contents of pm_record_<year>.json). Commit and push `data/` and `model/out/`.
 
 ## Model
-See the docstring in `model/player_model.py` and the backtest files in `model/out/` (fit 2024, tested 2025).
+v2 (Oct 9, 2026): PM = 0.6 x Claude Power + 0.4 x Data Rating (`model/data_rating.py`, coefficients in `model/out/rr_coefs.json`) + QB and injury adjustments.
+Research that chose the Data Rating: `model/research.py` (builds as-of-week features) and `model/research_eval.py`
+(writes `model/out/research_2024train_2025test.txt` and the dashboard summary `model/out/research_summary.json`).
+To refit after a new season: add the season to research.py/research_eval.py, rerun both, and commit the new rr_coefs.json.
