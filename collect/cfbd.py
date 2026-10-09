@@ -89,31 +89,58 @@ def main():
         print("CFBD_API_KEY secret is missing", file=sys.stderr)
         sys.exit(1)
     req = json.load(open(os.path.join(ROOT, "collect", "run.json")))
-    job, year = req.get("job", "probe"), int(req.get("year", 2026))
-    if job != "probe":
+    job = req.get("job", "probe")
+    plan = []  # (year, name, path, params)
+    if job == "probe":
+        y = int(req.get("year", 2026)); plan = [(y, n, p, q) for n, p, q in PROBE]
+    elif job == "history":
+        # per-game data so ratings can be rebuilt "as of" each week for an honest backtest
+        for y in req["years"]:
+            weeks = req.get("weeks", list(range(1, 16)))
+            plan += [(y, "games", "/games", {"seasonType": "regular", "classification": "fbs"}),
+                     (y, "lines", "/lines", {"seasonType": "regular"}),
+                     (y, "game_havoc", "/stats/game/havoc", {}),
+                     (y, "sp_ratings", "/ratings/sp", {})] if not req.get("weeklyOnly") else []
+            for w in weeks:
+                plan += [(y, f"game_advanced_w{w:02d}", "/stats/game/advanced", {"week": w, "seasonType": "regular"}),
+                         (y, f"game_player_stats_w{w:02d}", "/games/players", {"week": w, "seasonType": "regular"}),
+                         (y, f"qb_ppa_games_w{w:02d}", "/ppa/players/games", {"week": w, "position": "QB", "seasonType": "regular"})]
+    elif job == "weekly":
+        # current-season refresh: season-level player data + last completed week's per-game data
+        y, w = int(req["year"]), int(req["week"])
+        plan = [(y, n, p, q) for n, p, q in PROBE if n in ("games", "player_season_stats", "player_ppa_season", "player_usage", "team_advanced_season", "lines", "game_havoc")]
+        plan += [(y, f"game_advanced_w{w:02d}", "/stats/game/advanced", {"week": w, "seasonType": "regular"}),
+                 (y, f"game_player_stats_w{w:02d}", "/games/players", {"week": w, "seasonType": "regular"}),
+                 (y, f"qb_ppa_games_w{w:02d}", "/ppa/players/games", {"week": w, "position": "QB", "seasonType": "regular"})]
+    else:
         print("unknown job", job, file=sys.stderr)
         sys.exit(1)
     budget = int(req.get("maxCalls", 25))
-    if month_calls().get(datetime.now(timezone.utc).strftime("%Y-%m"), 0) + len(PROBE) > 900:
+    plan = plan[:budget]
+    m = datetime.now(timezone.utc).strftime("%Y-%m")
+    if month_calls().get(m, 0) + len(plan) > 900:
         print("monthly call guard: would exceed 900 of 1000", file=sys.stderr)
         sys.exit(1)
     out, used = [], 0
-    for name, path, params in PROBE[:budget]:
-        st, body = get(path, {"year": year, **params})
+    year = plan[0][0] if plan else None
+    for y, name, path, params in plan:
+        st, body = get(path, {"year": y, **params})
+        rec_year = y
         used += 1
-        rec = {"name": name, "path": path, "params": params, "status": st, "bytes": len(body)}
+        rec = {"year": rec_year, "name": name, "path": path, "params": params, "status": st, "bytes": len(body)}
         if st == 200:
-            rec["file"] = save(year, name, body)
+            rec["file"] = save(rec_year, name, body)
             rec.update(describe(body))
         else:
             rec["error"] = body[:300].decode("utf8", "replace")
         out.append(rec)
         print(f"{name}: {st} {len(body)} bytes rows={rec.get('rows')}")
-        time.sleep(1)
+        time.sleep(0.5)
     total = bump_calls(used)
-    man = {"job": job, "year": year, "ranAt": datetime.now(timezone.utc).isoformat(), "callsUsed": used, "callsThisMonth": total, "results": out}
-    json.dump(man, open(os.path.join(ROOT, "data", str(year), f"{job}-manifest.json"), "w"), indent=1)
-    if any(r["status"] == 401 for r in out):
+    man = {"job": job, "request": req, "ranAt": datetime.now(timezone.utc).isoformat(), "callsUsed": used, "callsThisMonth": total, "results": out}
+    os.makedirs(os.path.join(ROOT, "data", "manifests"), exist_ok=True)
+    json.dump(man, open(os.path.join(ROOT, "data", "manifests", f"{job}-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M')}.json"), "w"), indent=1)
+    if out and out[0]["status"] == 401 and "Patreon" not in out[0].get("error", ""):
         print("401 Unauthorized: check the CFBD_API_KEY secret", file=sys.stderr)
         sys.exit(2)
 

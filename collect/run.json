@@ -1,1 +1,1 @@
-{"job": "probe", "year": 2026, "maxCalls": 25, "note": "Edit and push this file to run the collector."}
+{"job": "history", "years": [2024, 2025], "weeks": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], "maxCalls": 100, "note": "Edit and push this file to run the collector."}
