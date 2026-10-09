@@ -1,0 +1,86 @@
+[
+ {
+  "label": "Every team, next game (baseline)",
+  "n": 15046,
+  "ats": "7347-7388-311",
+  "coverPct": 49.9,
+  "vsLine": -0.02,
+  "vsLineSE": 0.13,
+  "lost": 7493,
+  "expLost": 7499.7,
+  "gotOwned": 3276,
+  "expGotOwned": 2999.5
+ },
+ {
+  "label": "Won its last game",
+  "n": 7609,
+  "ats": "3772-3683-154",
+  "coverPct": 50.6,
+  "vsLine": 0.34,
+  "vsLineSE": 0.18,
+  "lost": 3187,
+  "expLost": 3223.4,
+  "gotOwned": 1198,
+  "expGotOwned": 1114.4
+ },
+ {
+  "label": "OWNED its last opponent (won by 17+)",
+  "n": 3409,
+  "ats": "1698-1635-76",
+  "coverPct": 50.9,
+  "vsLine": 0.83,
+  "vsLineSE": 0.27,
+  "lost": 1227,
+  "expLost": 1269.1,
+  "gotOwned": 419,
+  "expGotOwned": 401.0
+ },
+ {
+  "label": "Owned an opponent that had WON its previous game (TLT link)",
+  "n": 1084,
+  "ats": "540-523-21",
+  "coverPct": 50.8,
+  "vsLine": 0.81,
+  "vsLineSE": 0.47,
+  "lost": 381,
+  "expLost": 375.6,
+  "gotOwned": 121,
+  "expGotOwned": 113.2
+ },
+ {
+  "label": "Owned an opponent that had OWNED someone its previous game (strong TLT link: the Florida -> Missouri spot)",
+  "n": 374,
+  "ats": "186-182-6",
+  "coverPct": 50.5,
+  "vsLine": 0.49,
+  "vsLineSE": 0.85,
+  "lost": 124,
+  "expLost": 124.0,
+  "gotOwned": 38,
+  "expGotOwned": 35.1
+ },
+ {
+  "label": "FULL CHAIN: owned a team that had owned a team that had just won (Ole Miss -> Florida -> Missouri pattern)",
+  "n": 99,
+  "ats": "51-47-1",
+  "coverPct": 52.0,
+  "vsLine": 0.92,
+  "vsLineSE": 1.66,
+  "lost": 32,
+  "expLost": 32.4,
+  "gotOwned": 6,
+  "expGotOwned": 8.6
+ },
+ {
+  "label": "Beat the line by 14+ in its last game",
+  "n": 2799,
+  "ats": "1393-1359-47",
+  "coverPct": 50.6,
+  "vsLine": 0.72,
+  "vsLineSE": 0.29,
+  "lost": 1237,
+  "expLost": 1268.8,
+  "gotOwned": 492,
+  "expGotOwned": 477.6
+ }
+]

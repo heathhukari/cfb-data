@@ -1,0 +1,21 @@
+Transitive Letdown Theory test: FBS vs FBS regular season, 2014-2026 (no 2020). 'Owned' = won by 17+.
+For the team's NEXT game, compared with what the closing line expected (SD 14.8 for win/blowout chances).
+
+Every team, next game (baseline)
+   n=15046  ATS 7347-7388-311 (49.9%)  avg vs line -0.02 (± 0.13)  lost 7493 (line expected 7499.7)  got owned 3276 (line expected 2999.5)
+Won its last game
+   n=7609  ATS 3772-3683-154 (50.6%)  avg vs line +0.34 (± 0.18)  lost 3187 (line expected 3223.4)  got owned 1198 (line expected 1114.4)
+OWNED its last opponent (won by 17+)
+   n=3409  ATS 1698-1635-76 (50.9%)  avg vs line +0.83 (± 0.27)  lost 1227 (line expected 1269.1)  got owned 419 (line expected 401.0)
+Owned an opponent that had WON its previous game (TLT link)
+   n=1084  ATS 540-523-21 (50.8%)  avg vs line +0.81 (± 0.47)  lost 381 (line expected 375.6)  got owned 121 (line expected 113.2)
+Owned an opponent that had OWNED someone its previous game (strong TLT link: the Florida -> Missouri spot)
+   n=374  ATS 186-182-6 (50.5%)  avg vs line +0.49 (± 0.85)  lost 124 (line expected 124.0)  got owned 38 (line expected 35.1)
+FULL CHAIN: owned a team that had owned a team that had just won (Ole Miss -> Florida -> Missouri pattern)
+   n=99  ATS 51-47-1 (52.0%)  avg vs line +0.92 (± 1.66)  lost 32 (line expected 32.4)  got owned 6 (line expected 8.6)
+Beat the line by 14+ in its last game
+   n=2799  ATS 1393-1359-47 (50.6%)  avg vs line +0.72 (± 0.29)  lost 1237 (line expected 1268.8)  got owned 492 (line expected 477.6)
+
+2026 chain so far:
+   wk 3: Ole Miss 32-24 vs LSU -> next: vs Florida, margin -24 (line expected -4.0)
+   wk 4: Florida 52-28 vs Ole Miss -> next: vs Missouri, margin -28 (line expected +5.5)
