@@ -1,0 +1,2230 @@
+{
+ "job": "history",
+ "request": {
+  "job": "history",
+  "years": [
+   2024,
+   2025
+  ],
+  "weeks": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "maxCalls": 100,
+  "note": "Edit and push this file to run the collector."
+ },
+ "ranAt": "2026-10-09T02:20:19.704775+00:00",
+ "callsUsed": 98,
+ "callsThisMonth": 113,
+ "results": [
+  {
+   "year": 2024,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 685444,
+   "file": "data/2024/raw/games.json.gz",
+   "rows": 874,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 1024545,
+   "file": "data/2024/raw/lines.json.gz",
+   "rows": 1523,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_havoc",
+   "path": "/stats/game/havoc",
+   "params": {},
+   "status": 200,
+   "bytes": 1207924,
+   "file": "data/2024/raw/game_havoc.json.gz",
+   "rows": 2197,
+   "keys": [
+    "conference",
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "opponentConference",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "sp_ratings",
+   "path": "/ratings/sp",
+   "params": {},
+   "status": 200,
+   "bytes": 70118,
+   "file": "data/2024/raw/sp_ratings.json.gz",
+   "rows": 135,
+   "keys": [
+    "conference",
+    "defense",
+    "offense",
+    "ranking",
+    "rating",
+    "secondOrderWins",
+    "sos",
+    "specialTeams",
+    "team",
+    "year"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w01",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 1,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 491819,
+   "file": "data/2024/raw/game_advanced_w01.json.gz",
+   "rows": 266,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w01",
+   "path": "/games/players",
+   "params": {
+    "week": 1,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 3575260,
+   "file": "data/2024/raw/game_player_stats_w01.json.gz",
+   "rows": 137,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w01",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 1,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 76954,
+   "file": "data/2024/raw/qb_ppa_games_w01.json.gz",
+   "rows": 385,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w02",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 2,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 476349,
+   "file": "data/2024/raw/game_advanced_w02.json.gz",
+   "rows": 258,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w02",
+   "path": "/games/players",
+   "params": {
+    "week": 2,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 3031047,
+   "file": "data/2024/raw/game_player_stats_w02.json.gz",
+   "rows": 132,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w02",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 2,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 67494,
+   "file": "data/2024/raw/qb_ppa_games_w02.json.gz",
+   "rows": 338,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w03",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 3,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 422617,
+   "file": "data/2024/raw/game_advanced_w03.json.gz",
+   "rows": 228,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w03",
+   "path": "/games/players",
+   "params": {
+    "week": 3,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2617089,
+   "file": "data/2024/raw/game_player_stats_w03.json.gz",
+   "rows": 118,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w03",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 3,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 61658,
+   "file": "data/2024/raw/qb_ppa_games_w03.json.gz",
+   "rows": 308,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w04",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 4,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 410509,
+   "file": "data/2024/raw/game_advanced_w04.json.gz",
+   "rows": 222,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w04",
+   "path": "/games/players",
+   "params": {
+    "week": 4,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2667413,
+   "file": "data/2024/raw/game_player_stats_w04.json.gz",
+   "rows": 119,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w04",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 4,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 62724,
+   "file": "data/2024/raw/qb_ppa_games_w04.json.gz",
+   "rows": 314,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w05",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 5,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 369429,
+   "file": "data/2024/raw/game_advanced_w05.json.gz",
+   "rows": 200,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w05",
+   "path": "/games/players",
+   "params": {
+    "week": 5,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2225925,
+   "file": "data/2024/raw/game_player_stats_w05.json.gz",
+   "rows": 106,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w05",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 5,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 54091,
+   "file": "data/2024/raw/qb_ppa_games_w05.json.gz",
+   "rows": 272,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w06",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 6,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 373675,
+   "file": "data/2024/raw/game_advanced_w06.json.gz",
+   "rows": 202,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w06",
+   "path": "/games/players",
+   "params": {
+    "week": 6,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2088506,
+   "file": "data/2024/raw/game_player_stats_w06.json.gz",
+   "rows": 105,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w06",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 6,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 50785,
+   "file": "data/2024/raw/qb_ppa_games_w06.json.gz",
+   "rows": 255,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w07",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 7,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 380771,
+   "file": "data/2024/raw/game_advanced_w07.json.gz",
+   "rows": 206,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w07",
+   "path": "/games/players",
+   "params": {
+    "week": 7,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2188581,
+   "file": "data/2024/raw/game_player_stats_w07.json.gz",
+   "rows": 107,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w07",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 7,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 51775,
+   "file": "data/2024/raw/qb_ppa_games_w07.json.gz",
+   "rows": 258,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w08",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 8,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 413867,
+   "file": "data/2024/raw/game_advanced_w08.json.gz",
+   "rows": 224,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w08",
+   "path": "/games/players",
+   "params": {
+    "week": 8,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2407219,
+   "file": "data/2024/raw/game_player_stats_w08.json.gz",
+   "rows": 112,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w08",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 8,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 58725,
+   "file": "data/2024/raw/qb_ppa_games_w08.json.gz",
+   "rows": 295,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w09",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 9,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 407527,
+   "file": "data/2024/raw/game_advanced_w09.json.gz",
+   "rows": 220,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w09",
+   "path": "/games/players",
+   "params": {
+    "week": 9,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2387871,
+   "file": "data/2024/raw/game_player_stats_w09.json.gz",
+   "rows": 115,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w09",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 9,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 56348,
+   "file": "data/2024/raw/qb_ppa_games_w09.json.gz",
+   "rows": 282,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w10",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 10,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 381441,
+   "file": "data/2024/raw/game_advanced_w10.json.gz",
+   "rows": 206,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w10",
+   "path": "/games/players",
+   "params": {
+    "week": 10,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2164173,
+   "file": "data/2024/raw/game_player_stats_w10.json.gz",
+   "rows": 108,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w10",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 10,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 52234,
+   "file": "data/2024/raw/qb_ppa_games_w10.json.gz",
+   "rows": 261,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w11",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 11,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 403713,
+   "file": "data/2024/raw/game_advanced_w11.json.gz",
+   "rows": 218,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w11",
+   "path": "/games/players",
+   "params": {
+    "week": 11,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2164400,
+   "file": "data/2024/raw/game_player_stats_w11.json.gz",
+   "rows": 110,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w11",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 11,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 54977,
+   "file": "data/2024/raw/qb_ppa_games_w11.json.gz",
+   "rows": 273,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w12",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 12,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 410979,
+   "file": "data/2024/raw/game_advanced_w12.json.gz",
+   "rows": 222,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w12",
+   "path": "/games/players",
+   "params": {
+    "week": 12,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2369482,
+   "file": "data/2024/raw/game_player_stats_w12.json.gz",
+   "rows": 115,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w12",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 12,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 52988,
+   "file": "data/2024/raw/qb_ppa_games_w12.json.gz",
+   "rows": 264,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w13",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 13,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 448891,
+   "file": "data/2024/raw/game_advanced_w13.json.gz",
+   "rows": 242,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w13",
+   "path": "/games/players",
+   "params": {
+    "week": 13,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2586531,
+   "file": "data/2024/raw/game_player_stats_w13.json.gz",
+   "rows": 125,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w13",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 13,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 58752,
+   "file": "data/2024/raw/qb_ppa_games_w13.json.gz",
+   "rows": 292,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w14",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 14,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 280907,
+   "file": "data/2024/raw/game_advanced_w14.json.gz",
+   "rows": 152,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w14",
+   "path": "/games/players",
+   "params": {
+    "week": 14,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2010786,
+   "file": "data/2024/raw/game_player_stats_w14.json.gz",
+   "rows": 78,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w14",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 14,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 42246,
+   "file": "data/2024/raw/qb_ppa_games_w14.json.gz",
+   "rows": 212,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_advanced_w15",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 15,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 66567,
+   "file": "data/2024/raw/game_advanced_w15.json.gz",
+   "rows": 36,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "game_player_stats_w15",
+   "path": "/games/players",
+   "params": {
+    "week": 15,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 327125,
+   "file": "data/2024/raw/game_player_stats_w15.json.gz",
+   "rows": 18,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2024,
+   "name": "qb_ppa_games_w15",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 15,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 9410,
+   "file": "data/2024/raw/qb_ppa_games_w15.json.gz",
+   "rows": 47,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 696655,
+   "file": "data/2025/raw/games.json.gz",
+   "rows": 888,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 1063280,
+   "file": "data/2025/raw/lines.json.gz",
+   "rows": 1547,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_havoc",
+   "path": "/stats/game/havoc",
+   "params": {},
+   "status": 200,
+   "bytes": 1237610,
+   "file": "data/2025/raw/game_havoc.json.gz",
+   "rows": 2250,
+   "keys": [
+    "conference",
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "opponentConference",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "sp_ratings",
+   "path": "/ratings/sp",
+   "params": {},
+   "status": 200,
+   "bytes": 71174,
+   "file": "data/2025/raw/sp_ratings.json.gz",
+   "rows": 137,
+   "keys": [
+    "conference",
+    "defense",
+    "offense",
+    "ranking",
+    "rating",
+    "secondOrderWins",
+    "sos",
+    "specialTeams",
+    "team",
+    "year"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w01",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 1,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 520313,
+   "file": "data/2025/raw/game_advanced_w01.json.gz",
+   "rows": 282,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w01",
+   "path": "/games/players",
+   "params": {
+    "week": 1,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 3548356,
+   "file": "data/2025/raw/game_player_stats_w01.json.gz",
+   "rows": 141,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w01",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 1,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 94259,
+   "file": "data/2025/raw/qb_ppa_games_w01.json.gz",
+   "rows": 469,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w02",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 2,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 433743,
+   "file": "data/2025/raw/game_advanced_w02.json.gz",
+   "rows": 234,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w02",
+   "path": "/games/players",
+   "params": {
+    "week": 2,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 3221732,
+   "file": "data/2025/raw/game_player_stats_w02.json.gz",
+   "rows": 130,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w02",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 2,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 83594,
+   "file": "data/2025/raw/qb_ppa_games_w02.json.gz",
+   "rows": 416,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w03",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 3,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 448099,
+   "file": "data/2025/raw/game_advanced_w03.json.gz",
+   "rows": 242,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w03",
+   "path": "/games/players",
+   "params": {
+    "week": 3,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2878280,
+   "file": "data/2025/raw/game_player_stats_w03.json.gz",
+   "rows": 124,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w03",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 3,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 83220,
+   "file": "data/2025/raw/qb_ppa_games_w03.json.gz",
+   "rows": 415,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w04",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 4,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 428321,
+   "file": "data/2025/raw/game_advanced_w04.json.gz",
+   "rows": 232,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w04",
+   "path": "/games/players",
+   "params": {
+    "week": 4,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2596353,
+   "file": "data/2025/raw/game_player_stats_w04.json.gz",
+   "rows": 115,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w04",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 4,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 78536,
+   "file": "data/2025/raw/qb_ppa_games_w04.json.gz",
+   "rows": 393,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w05",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 5,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 396075,
+   "file": "data/2025/raw/game_advanced_w05.json.gz",
+   "rows": 214,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w05",
+   "path": "/games/players",
+   "params": {
+    "week": 5,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2263101,
+   "file": "data/2025/raw/game_player_stats_w05.json.gz",
+   "rows": 107,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w05",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 5,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 69080,
+   "file": "data/2025/raw/qb_ppa_games_w05.json.gz",
+   "rows": 344,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w06",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 6,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 395925,
+   "file": "data/2025/raw/game_advanced_w06.json.gz",
+   "rows": 214,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w06",
+   "path": "/games/players",
+   "params": {
+    "week": 6,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2262775,
+   "file": "data/2025/raw/game_player_stats_w06.json.gz",
+   "rows": 108,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w06",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 6,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 66984,
+   "file": "data/2025/raw/qb_ppa_games_w06.json.gz",
+   "rows": 335,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w07",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 7,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 407061,
+   "file": "data/2025/raw/game_advanced_w07.json.gz",
+   "rows": 220,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w07",
+   "path": "/games/players",
+   "params": {
+    "week": 7,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2360492,
+   "file": "data/2025/raw/game_player_stats_w07.json.gz",
+   "rows": 112,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w07",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 7,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 68971,
+   "file": "data/2025/raw/qb_ppa_games_w07.json.gz",
+   "rows": 344,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w08",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 8,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 402999,
+   "file": "data/2025/raw/game_advanced_w08.json.gz",
+   "rows": 218,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w08",
+   "path": "/games/players",
+   "params": {
+    "week": 8,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2412047,
+   "file": "data/2025/raw/game_player_stats_w08.json.gz",
+   "rows": 111,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w08",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 8,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 68687,
+   "file": "data/2025/raw/qb_ppa_games_w08.json.gz",
+   "rows": 344,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w09",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 9,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 415185,
+   "file": "data/2025/raw/game_advanced_w09.json.gz",
+   "rows": 224,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w09",
+   "path": "/games/players",
+   "params": {
+    "week": 9,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2308326,
+   "file": "data/2025/raw/game_player_stats_w09.json.gz",
+   "rows": 112,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w09",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 9,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 68488,
+   "file": "data/2025/raw/qb_ppa_games_w09.json.gz",
+   "rows": 341,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w10",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 10,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 407483,
+   "file": "data/2025/raw/game_advanced_w10.json.gz",
+   "rows": 220,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w10",
+   "path": "/games/players",
+   "params": {
+    "week": 10,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2155689,
+   "file": "data/2025/raw/game_player_stats_w10.json.gz",
+   "rows": 109,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w10",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 10,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 70701,
+   "file": "data/2025/raw/qb_ppa_games_w10.json.gz",
+   "rows": 350,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w11",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 11,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 426551,
+   "file": "data/2025/raw/game_advanced_w11.json.gz",
+   "rows": 230,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w11",
+   "path": "/games/players",
+   "params": {
+    "week": 11,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2251649,
+   "file": "data/2025/raw/game_player_stats_w11.json.gz",
+   "rows": 115,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w11",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 11,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 74783,
+   "file": "data/2025/raw/qb_ppa_games_w11.json.gz",
+   "rows": 371,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w12",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 12,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 446187,
+   "file": "data/2025/raw/game_advanced_w12.json.gz",
+   "rows": 240,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w12",
+   "path": "/games/players",
+   "params": {
+    "week": 12,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2510113,
+   "file": "data/2025/raw/game_player_stats_w12.json.gz",
+   "rows": 121,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w12",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 12,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 76370,
+   "file": "data/2025/raw/qb_ppa_games_w12.json.gz",
+   "rows": 378,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w13",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 13,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 453507,
+   "file": "data/2025/raw/game_advanced_w13.json.gz",
+   "rows": 244,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w13",
+   "path": "/games/players",
+   "params": {
+    "week": 13,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2609496,
+   "file": "data/2025/raw/game_player_stats_w13.json.gz",
+   "rows": 123,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w13",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 13,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 76062,
+   "file": "data/2025/raw/qb_ppa_games_w13.json.gz",
+   "rows": 378,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w14",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 14,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 288187,
+   "file": "data/2025/raw/game_advanced_w14.json.gz",
+   "rows": 156,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w14",
+   "path": "/games/players",
+   "params": {
+    "week": 14,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2048206,
+   "file": "data/2025/raw/game_player_stats_w14.json.gz",
+   "rows": 78,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w14",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 14,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 45288,
+   "file": "data/2025/raw/qb_ppa_games_w14.json.gz",
+   "rows": 226,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_advanced_w15",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 15,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 66915,
+   "file": "data/2025/raw/game_advanced_w15.json.gz",
+   "rows": 36,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "game_player_stats_w15",
+   "path": "/games/players",
+   "params": {
+    "week": 15,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 358331,
+   "file": "data/2025/raw/game_player_stats_w15.json.gz",
+   "rows": 18,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2025,
+   "name": "qb_ppa_games_w15",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 15,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 10099,
+   "file": "data/2025/raw/qb_ppa_games_w15.json.gz",
+   "rows": 50,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  }
+ ]
+}
