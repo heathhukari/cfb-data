@@ -1,0 +1,879 @@
+{
+ "job": "custom",
+ "request": {
+  "job": "custom",
+  "maxCalls": 18,
+  "note": "TLT research Oct 9: games + lines 2014-2023 (no 2020).",
+  "calls": [
+   {
+    "year": 2014,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2014,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2015,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2015,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2016,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2016,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2017,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2017,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2018,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2018,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2019,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2019,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2021,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2021,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2022,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2022,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   },
+   {
+    "year": 2023,
+    "name": "games",
+    "path": "/games",
+    "params": {
+     "seasonType": "regular",
+     "classification": "fbs"
+    }
+   },
+   {
+    "year": 2023,
+    "name": "lines",
+    "path": "/lines",
+    "params": {
+     "seasonType": "regular"
+    }
+   }
+  ]
+ },
+ "ranAt": "2026-10-09T19:35:53.052782+00:00",
+ "callsUsed": 18,
+ "callsThisMonth": 246,
+ "results": [
+  {
+   "year": 2014,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 648631,
+   "file": "data/2014/raw/games.json.gz",
+   "rows": 829,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2014,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 652463,
+   "file": "data/2014/raw/lines.json.gz",
+   "rows": 829,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2015,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 649403,
+   "file": "data/2015/raw/games.json.gz",
+   "rows": 829,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2015,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 654218,
+   "file": "data/2015/raw/lines.json.gz",
+   "rows": 829,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2016,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 677538,
+   "file": "data/2016/raw/games.json.gz",
+   "rows": 832,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2016,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 660116,
+   "file": "data/2016/raw/lines.json.gz",
+   "rows": 832,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2017,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 681416,
+   "file": "data/2017/raw/games.json.gz",
+   "rows": 834,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2017,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 671140,
+   "file": "data/2017/raw/lines.json.gz",
+   "rows": 834,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2018,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 692665,
+   "file": "data/2018/raw/games.json.gz",
+   "rows": 845,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2018,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 775024,
+   "file": "data/2018/raw/lines.json.gz",
+   "rows": 845,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2019,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 696823,
+   "file": "data/2019/raw/games.json.gz",
+   "rows": 848,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2019,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 846090,
+   "file": "data/2019/raw/lines.json.gz",
+   "rows": 848,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2021,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 665336,
+   "file": "data/2021/raw/games.json.gz",
+   "rows": 849,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2021,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 872658,
+   "file": "data/2021/raw/lines.json.gz",
+   "rows": 849,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2022,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 669623,
+   "file": "data/2022/raw/games.json.gz",
+   "rows": 854,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2022,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 1199569,
+   "file": "data/2022/raw/lines.json.gz",
+   "rows": 1417,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2023,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 680877,
+   "file": "data/2023/raw/games.json.gz",
+   "rows": 868,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2023,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 962708,
+   "file": "data/2023/raw/lines.json.gz",
+   "rows": 1350,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  }
+ ]
+}
