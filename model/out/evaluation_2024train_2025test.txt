@@ -1,0 +1,19 @@
+train 612 games (2024), test 617 games (2025)
+closing line MAE: train 11.99  test 11.79
+ratings: points model only                 test MAE 12.82
+ratings: points + efficiency               test MAE 12.75   (train 12.74)
+ratings + efficiency + unit split          test MAE 12.76   (train 12.72)
+... + matchup & QB features                test MAE 12.75   (train 12.68)
+
+Residual vs closing line (margin - market): does anything predict it out of sample?
+  run_vs_f7      coef    -0.07  corr train -0.020  test +0.011  test MAE 11.828 vs 11.791 (line alone)
+  run_vs_stuff   coef    +0.43  corr train +0.076  test +0.007  test MAE 11.828 vs 11.791 (line alone)
+  ol_vs_rush     coef    -1.64  corr train -0.067  test -0.044  test MAE 11.827 vs 11.791 (line alone)
+  pass_vs_db     coef    -0.31  corr train -0.026  test -0.033  test MAE 11.828 vs 11.791 (line alone)
+  qb_form        coef    -0.30  corr train -0.080  test -0.044  test MAE 11.816 vs 11.791 (line alone)
+  rush_unit      coef    +3.07  corr train +0.037  test +0.022  test MAE 11.827 vs 11.791 (line alone)
+  pass_unit      coef    -1.27  corr train -0.015  test +0.016  test MAE 11.828 vs 11.791 (line alone)
+  eff            coef    +0.02  corr train +0.013  test +0.025  test MAE 11.827 vs 11.791 (line alone)
+  all matchup features: test MAE 11.816 vs 11.791; coefs [-0.05  0.44 -1.58 -0.24 -0.3 ]
+  QB-change games 2024: n=157, corr(qb_form, residual)=-0.195
+  QB-change games 2025: n=146, corr(qb_form, residual)=-0.105
