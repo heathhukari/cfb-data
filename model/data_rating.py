@@ -33,14 +33,14 @@ def team_ratings(year, week):
     gb = G[(G.week < week) & G.fbs_both]
     lk = gb.groupby("home").luck.sum().sub(gb.groupby("away").luck.sum(), fill_value=0)
     gp = pd.concat([gb.home, gb.away]).value_counts()
-    rat = ridge_pts(gb, teams, "margin_lucky_half")[0]
-    tg = adv_games(year, True); tg = tg[tg.week < week]
-    off, dfn = ridge_od(tg, "o_sr", teams, 4.0)
+    rp = ridge_pts(gb, teams, "margin_lucky_half"); rat = rp[0] if rp else {}      # too few games (weeks 1-2): prior only
+    tg = adv_games(year, True); tg = tg[tg.week < week] if len(tg) else tg
+    od = ridge_od(tg, "o_sr", teams, 4.0) if len(tg) else None; off, dfn = od if od else ({}, {})
     sp, ret, tal, tmu, tsd = priors(year)
     sp_fill = float(np.nanpercentile([v for t, v in sp.items() if t in fbs], 25))  # teams new to FBS: below-average prior
     out = {}
     for t in teams:
-        g = gp.get(t, 0); wi = g / (N + g); wp = 1 - wi
+        g = gp.get(t, 0) if rp else 0; wi = g / (N + g); wp = 1 - wi
         prior = c["p_sp"] * sp.get(t, sp_fill) + c["p_tal"] * (((tal.get(t, tmu - tsd)) - tmu) / tsd)
         season = c["rat_luck_half"] * rat.get(t, 0) + c["o_sr_gt"] * (off.get(t, 0) - dfn.get(t, 0))
         out[t] = {"rating": wp * prior + wi * season, "prior": prior, "season": season, "games": int(g), "priorWeight": round(wp, 3),

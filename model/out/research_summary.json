@@ -126,5 +126,7 @@
   "KenPom (preseason weight)",
   "CollegeFootballData (definitions, ridge adjustment)",
   "Action Network & Football Study Hall (turnover luck, wind, byes)"
- ]
+ ],
+ "live2026": "Live check on 2026 weeks 2–5 (220 games the model never saw): Data Rating 12.58, in-season results only 14.33, closing line 11.00. Same ordering as the backtest.",
+ "caveat": "Honest caveat: the final settings (prior worth 2 games, half-strength luck, which inputs to drop) were chosen after seeing 2025 results, so 12.14 is slightly optimistic (by about 0.05 points). The 2026 check is clean."
 }

@@ -67,3 +67,6 @@ F. Totals: does a pace x efficiency scoring environment predict the result again
   overs hit: 2024 51.1%, 2025 49.3% (pushes counted as unders)
 
 Production coefficients (2024 + 2025 refit): const +0.11, hfa +3.09, rat_luck_half +1.25, o_sr_gt +10.23, p_sp +0.87, p_tal +4.88
+
+Live check, 2026 weeks 2-5 (220 FBS games, never used for fitting): closing line 11.00; Data Rating 12.62 (2024-fit coefficients) / 12.58 (2024+2025 refit, used live); in-season results only 14.33.
+Audit (independent re-run): no look-ahead leakage; headline numbers reproduce; settings were chosen with 2025 visible, so 12.14 is optimistic by ~0.05.
