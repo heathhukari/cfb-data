@@ -2,7 +2,7 @@ name: CFBD collect
 on:
   push:
     branches: [main]
-    paths: ["collect/run.json", "collect/cfbd.py", ".github/workflows/cfbd.yml"]
+    paths: ["collect/run.json"]   # only an edited run.json starts a push run
   schedule:
     - cron: "23 14 * * 0"   # Sundays 14:23 UTC (9:23 AM Central): last completed week, ~10 calls
   workflow_dispatch:

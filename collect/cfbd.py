@@ -150,6 +150,7 @@ def main():
         st, body = get(path, {"year": y, **params})
         rec_year = y
         used += 1
+        bump_calls(1)  # counted per call, so a cancelled run still records what it spent
         rec = {"year": rec_year, "name": name, "path": path, "params": params, "status": st, "bytes": len(body)}
         if st == 200:
             rec["file"] = save(rec_year, name, body)
@@ -159,7 +160,7 @@ def main():
         out.append(rec)
         print(f"{name}: {st} {len(body)} bytes rows={rec.get('rows')}")
         time.sleep(0.5)
-    total = bump_calls(used)
+    total = month_calls().get(datetime.now(timezone.utc).strftime("%Y-%m"), 0)
     man = {"job": job, "request": req, "ranAt": datetime.now(timezone.utc).isoformat(), "callsUsed": used + len(pre), "callsThisMonth": total, "results": out}
     os.makedirs(os.path.join(ROOT, "data", "manifests"), exist_ok=True)
     json.dump(man, open(os.path.join(ROOT, "data", "manifests", f"{job}-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M')}.json"), "w"), indent=1)
