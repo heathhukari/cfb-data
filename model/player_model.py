@@ -18,6 +18,7 @@ from dataset import team_games, ridge_offdef, load
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 W_CLAUDE, W_UNIT, QB_SHRINK = 0.6, 0.4, 0.5
+HFA, SD, FCS = 2.5, 14.8, -24.0  # same constants as Claude's game projections
 r1 = lambda x: None if x is None or x != x else round(float(x), 1)
 r2 = lambda x: None if x is None or x != x else round(float(x), 2)
 r3 = lambda x: None if x is None or x != x else round(float(x), 3)
@@ -195,12 +196,46 @@ def main(year, week, inj_path=None):
                       "vegasHomeSpread": g["vegasHomeSpread"], "pmVsClaude": r1(pmm - g["claudeHomeMargin"]), "notes": notes,
                       "qb": {g["home"]: qbinfo[th].get("starter"), g["away"]: qbinfo[ta].get("starter")}})
     games.sort(key=lambda x: -abs(x["pmVsClaude"] or 0))
+    # ---- rest-of-season projections for every FBS team (same math as the main tracker's Road ahead) ----
+    from math import erf, sqrt
+    phi = lambda z: 0.5 * (1 + erf(z / sqrt(2)))
+    CPd = {r["team"]: r["claudePower"] for r in rows}
+    sched = load(year, "games") or []
+    outlook = {}
+    for t in tl:
+        dn = cf2dash[t]
+        if dn not in PMd: continue
+        w = l = 0; rest = []
+        for g in sched:
+            if g.get("seasonType") != "regular" or t not in (g["homeTeam"], g["awayTeam"]): continue
+            home = g["homeTeam"] == t; opp = g["awayTeam"] if home else g["homeTeam"]
+            if g.get("completed") and g.get("homePoints") is not None:
+                m = (g["homePoints"] - g["awayPoints"]) * (1 if home else -1)
+                w += m > 0; l += m < 0; continue
+            if g["week"] < week: continue
+            od = cf2dash.get(opp, opp); fbs_opp = opp in cf2dash
+            hfa = 0 if g.get("neutralSite") else (HFA if home else -HFA)
+            pm_m = PMd[dn] - (PMd.get(od, FCS) if fbs_opp else FCS) + hfa
+            cl_m = CPd[dn] - (CPd.get(od, FCS) if fbs_opp else FCS) + hfa
+            rest.append({"id": str(g["id"]), "w": g["week"], "date": (g.get("startDate") or "")[:10], "opp": od, "fcs": not fbs_opp,
+                         "site": "neutral" if g.get("neutralSite") else "home" if home else "away",
+                         "pmWin": round(100 * phi(pm_m / SD), 1), "pmMargin": r1(pm_m), "claudeWin": round(100 * phi(cl_m / SD), 1)})
+        rest.sort(key=lambda x: (x["w"], x["date"]))
+        ep = sum(x["pmWin"] for x in rest) / 100; ec = sum(x["claudeWin"] for x in rest) / 100
+        outlook[dn] = {"record": f"{w}-{l}", "pmProjW": round(w + ep, 1), "pmProjL": round(l + len(rest) - ep, 1),
+                       "claudeProjW": round(w + ec, 1), "claudeProjL": round(l + len(rest) - ec, 1), "games": rest}
+    for x in out_top:
+        o = outlook.get(x["team"])
+        if o:
+            n = round(o["pmProjW"] + o["pmProjL"]); wr = int(o["pmProjW"] + 0.5)  # round half up, losses = games left over
+            x["pmProj"] = f"{wr}-{n - wr}"
     cards = {}
     for dn in set(x["team"] for x in out_top) | {g["home"] for g in games} | {g["away"] for g in games}:
         if dn in d2c: cards[dn] = team_card(dn)
     doc = {"season": year, "week": week, "sortKey": year * 100 + week, "label": f"Week {week}", "throughWeek": week - 1,
            "weights": {"claudePower": W_CLAUDE, "unitPower": W_UNIT, "qbShrink": QB_SHRINK, "matchups": 0},
-           "replacementQbEpa": r3(repl), "injurySource": inj.get("source"), "top25": out_top, "games": games, "teams": cards,
+           "replacementQbEpa": r3(repl), "injurySource": inj.get("source"), "top25": out_top, "games": games, "teams": cards, "outlook": outlook,
+           "outlookMethod": f"Win % for every remaining regular-season game = normal CDF((power gap + {HFA} home field) / {SD}), the same math as the main tracker. Player Model uses PM power; Claude Power uses Claude Power alone (the main tracker's Road ahead uses blended power, so its numbers can differ slightly). FCS opponents count as {FCS}. Projected record = current record + the sum of remaining win chances.",
            "backtest": {"note": "Fit on 2024 (weeks 4+), tested on 2025 (weeks 4+), every team's numbers rebuilt from games before each matchup.",
                         "margins": [["Vegas closing line", 11.79], ["Results-only ratings", 12.81], ["Efficiency (unit EPA) only", 13.01], ["Results + efficiency blend", 12.75], ["+ matchup & QB features", 12.75]],
                         "matchupCorr": [["Run-heavy offense vs front-seven havoc", -0.02, 0.01], ["Run-heavy offense vs run-stuffing defense", 0.08, 0.01], ["Weak protection vs pass rush", -0.07, -0.04], ["Pass-heavy offense vs DB havoc", -0.03, -0.03], ["QB recent form after a QB change", -0.20, -0.10]],

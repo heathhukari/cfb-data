@@ -1,4 +1,4 @@
-/home/claude/cfb-data/model/out/playermodel_2026_w06.json 96362 bytes
+/home/claude/cfb-data/model/out/playermodel_2026_w06.json 243848 bytes
 1 Alabama pm 24.2 (claude 25.6 unit 22.0 qb 0.0 inj 0.0 ) claudeRank 1
 2 Ohio State pm 22.7 (claude 26.4 unit 17.2 qb 0.0 inj 0.0 ) claudeRank 2
 3 Texas pm 17.3 (claude 22.2 unit 9.9 qb 0.0 inj 0.0 ) claudeRank 3
