@@ -1,0 +1,32 @@
+name: CFBD collect
+on:
+  push:
+    branches: [main]
+    paths: ["collect/run.json", "collect/cfbd.py", ".github/workflows/cfbd.yml"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: cfbd-collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect from CFBD
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: python collect/cfbd.py
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "cfbd-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "CFBD data: $(python -c 'import json;r=json.load(open("collect/run.json"));print(r["job"], r["year"])')"
+          git push
