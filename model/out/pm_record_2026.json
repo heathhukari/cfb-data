@@ -1,12 +1,12 @@
 {
  "weeks": "Week 6",
- "games": 20,
- "maePM": 11.35,
- "maeClaude": 11.49,
- "maeVegas": 12.37,
+ "games": 21,
+ "maePM": 10.89,
+ "maeClaude": 11.01,
+ "maeVegas": 11.78,
  "pmCloser": 10,
- "claudeCloser": 9,
+ "claudeCloser": 10,
  "ties": 1,
  "pmVsVegas": "6-2",
- "summary": "Week 6, 20 games: average miss PM 11.3, Claude 11.5, Vegas 12.4 pts. PM closer than Claude in 10, Claude closer in 9, 1 ties. PM vs the spread (3+ pt gaps): 6-2."
+ "summary": "Week 6, 21 games: average miss PM 10.9, Claude 11.0, Vegas 11.8 pts. PM closer than Claude in 10, Claude closer in 10, 1 ties. PM vs the spread (3+ pt gaps): 6-2."
 }
