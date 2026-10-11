@@ -1,7 +1,1 @@
-{
-"job": "weekly",
-"year": "auto",
-"week": "auto",
-"maxCalls": 18,
-"note": "Early Sunday pull Oct 11 for the pre-AP Top 25 and Player Model."
-}
+{"job": "weekly", "year": "auto", "week": "auto", "maxCalls": 18, "note": "Sunday pre-AP pull Oct 11 (rerun to pick up the Boise State-Fresno State final)"}
