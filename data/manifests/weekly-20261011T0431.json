@@ -1,0 +1,300 @@
+{
+ "job": "weekly",
+ "request": {
+  "job": "weekly",
+  "year": 2026,
+  "week": 6,
+  "maxCalls": 18,
+  "note": "Early Sunday pull Oct 11 for the pre-AP Top 25 and Player Model."
+ },
+ "ranAt": "2026-10-11T04:31:25.897839+00:00",
+ "callsUsed": 12,
+ "callsThisMonth": 258,
+ "results": [
+  {
+   "year": 2026,
+   "name": "games",
+   "path": "/games",
+   "params": {
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 675323,
+   "file": "data/2026/raw/games.json.gz",
+   "rows": 888,
+   "keys": [
+    "attendance",
+    "awayClassification",
+    "awayConference",
+    "awayId",
+    "awayLineScores",
+    "awayPoints",
+    "awayPostgameElo",
+    "awayPostgameWinProbability",
+    "awayPregameElo",
+    "awayTeam",
+    "completed",
+    "conferenceGame",
+    "excitementIndex",
+    "highlights",
+    "homeClassification",
+    "homeConference",
+    "homeId",
+    "homeLineScores",
+    "homePoints",
+    "homePostgameElo",
+    "homePostgameWinProbability",
+    "homePregameElo",
+    "homeTeam",
+    "id",
+    "neutralSite",
+    "notes",
+    "playoff",
+    "season",
+    "seasonType",
+    "startDate",
+    "startTimeTBD",
+    "venue",
+    "venueId",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "player_season_stats",
+   "path": "/stats/player/season",
+   "params": {},
+   "status": 200,
+   "bytes": 23335073,
+   "file": "data/2026/raw/player_season_stats.json.gz",
+   "rows": 134120,
+   "keys": [
+    "category",
+    "conference",
+    "player",
+    "playerId",
+    "position",
+    "season",
+    "stat",
+    "statType",
+    "team"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "player_ppa_season",
+   "path": "/ppa/players/season",
+   "params": {},
+   "status": 200,
+   "bytes": 2050934,
+   "file": "data/2026/raw/player_ppa_season.json.gz",
+   "rows": 5029,
+   "keys": [
+    "averagePPA",
+    "conference",
+    "id",
+    "name",
+    "position",
+    "season",
+    "team",
+    "totalPPA"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "player_usage",
+   "path": "/player/usage",
+   "params": {},
+   "status": 200,
+   "bytes": 1277966,
+   "file": "data/2026/raw/player_usage.json.gz",
+   "rows": 5029,
+   "keys": [
+    "conference",
+    "id",
+    "name",
+    "position",
+    "season",
+    "team",
+    "usage"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_advanced_season",
+   "path": "/stats/season/advanced",
+   "params": {},
+   "status": 200,
+   "bytes": 338637,
+   "file": "data/2026/raw/team_advanced_season.json.gz",
+   "rows": 138,
+   "keys": [
+    "conference",
+    "defense",
+    "offense",
+    "season",
+    "team"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "lines",
+   "path": "/lines",
+   "params": {
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 613637,
+   "file": "data/2026/raw/lines.json.gz",
+   "rows": 1187,
+   "keys": [
+    "awayClassification",
+    "awayConference",
+    "awayScore",
+    "awayTeam",
+    "awayTeamId",
+    "homeClassification",
+    "homeConference",
+    "homeScore",
+    "homeTeam",
+    "homeTeamId",
+    "id",
+    "lines",
+    "season",
+    "seasonType",
+    "startDate",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_havoc",
+   "path": "/stats/game/havoc",
+   "params": {},
+   "status": 200,
+   "bytes": 876296,
+   "file": "data/2026/raw/game_havoc.json.gz",
+   "rows": 1586,
+   "keys": [
+    "conference",
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "opponentConference",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_w06",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 6,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 378393,
+   "file": "data/2026/raw/game_advanced_w06.json.gz",
+   "rows": 204,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_player_stats_w06",
+   "path": "/games/players",
+   "params": {
+    "week": 6,
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 2979066,
+   "file": "data/2026/raw/game_player_stats_w06.json.gz",
+   "rows": 102,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "qb_ppa_games_w06",
+   "path": "/ppa/players/games",
+   "params": {
+    "week": 6,
+    "position": "QB",
+    "seasonType": "regular"
+   },
+   "status": 200,
+   "bytes": 59990,
+   "file": "data/2026/raw/qb_ppa_games_w06.json.gz",
+   "rows": 299,
+   "keys": [
+    "averagePPA",
+    "id",
+    "name",
+    "opponent",
+    "position",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "game_advanced_gt_w06",
+   "path": "/stats/game/advanced",
+   "params": {
+    "week": 6,
+    "seasonType": "regular",
+    "excludeGarbageTime": "true"
+   },
+   "status": 200,
+   "bytes": 376577,
+   "file": "data/2026/raw/game_advanced_gt_w06.json.gz",
+   "rows": 204,
+   "keys": [
+    "defense",
+    "gameId",
+    "offense",
+    "opponent",
+    "season",
+    "seasonType",
+    "team",
+    "week"
+   ]
+  },
+  {
+   "year": 2026,
+   "name": "team_box_w06",
+   "path": "/games/teams",
+   "params": {
+    "week": 6,
+    "seasonType": "regular",
+    "classification": "fbs"
+   },
+   "status": 200,
+   "bytes": 153173,
+   "file": "data/2026/raw/team_box_w06.json.gz",
+   "rows": 56,
+   "keys": [
+    "id",
+    "teams"
+   ]
+  }
+ ]
+}
